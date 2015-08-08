@@ -1,0 +1,12 @@
+.certificate {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.sert_block {
+    display: block;
+    float: left;
+    max-width: 18rem;
+    margin: 0.5rem;
+}
