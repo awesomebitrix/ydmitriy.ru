@@ -1,0 +1,24 @@
+input[type=submit] {
+    margin: 0;
+    background: #428BCA;
+    border: 0;
+    color: #fff;
+    padding: 0.6rem;
+    border-radius: 3px;
+}
+
+input[type=file] {
+    color: #515151;
+}
+
+div.feedback {
+    border: 1px solid #428BCA;
+    background: rgba(78, 173, 247, 0.29);
+    padding: 1rem 1rem 1rem 2rem;
+    margin: 1rem 0 1rem 0;
+    color: #515151;
+}
+
+.captcha {
+    margin: 0;
+}
