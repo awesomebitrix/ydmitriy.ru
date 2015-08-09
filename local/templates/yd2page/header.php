@@ -13,8 +13,6 @@
     <?$APPLICATION->ShowHead();?>
     <?IncludeTemplateLangFile(__FILE__);?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <?$APPLICATION->AddHeadScript("https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=desert")?>
     </head>
 <body>
 <?$APPLICATION->ShowPanel();?>
