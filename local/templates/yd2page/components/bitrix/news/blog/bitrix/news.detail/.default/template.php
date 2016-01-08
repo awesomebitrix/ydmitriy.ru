@@ -1,12 +1,16 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
-$this->setFrameMode(true);
+//$this->setFrameMode(true);
 //dump($arResult);
 ?>
     <h1 class="post_title"><?=$arResult["NAME"]?></h1>
     <p class="post_date_2">
         <?=formatBDate($arResult["DATE_CREATE"])?>
         <font style="float: right">
-            <i class="fa fa-eye"></i> <?=$arResult["PROPERTIES"]["BLOG_VIEW"]["VALUE"]?>
+            <?$frame = $this->createFrame()->begin();?>
+                <i class="fa fa-eye"></i> <?=$arResult["PROPERTIES"]["BLOG_VIEW"]["VALUE"]?>
+            <?$frame->beginStub();?>
+            <i class="fa fa-eye"></i> ???
+            <?$frame->end();?>
         </font>
     </p>
     <div id="text">
