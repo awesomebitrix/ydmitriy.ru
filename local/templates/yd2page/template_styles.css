@@ -38,28 +38,6 @@ h1 h2 h3 h4 {
 div.input {
     position: relative;
 }
-
-/*input[type="text"] {*/
-    /*height: 3em;*/
-    /*width: 90%;*/
-    /*padding: 0 0 0 5px;*/
-    /*margin: 1rem 0 0 0;*/
-    /*border: 1px solid #428BCA;;*/
-    /*color: #428BCA;*/
-    /*font-size: 14px;*/
-/*}*/
-
-/*input.btn[type="submit"] {*/
-    /*background-color: #428BCA;*/
-    /*cursor: pointer;*/
-    /*display: inline;*/
-    /*height: 3em;*/
-    /*padding: 0 10px 0 10px;*/
-    /*margin: 0;*/
-    /*border: medium none;*/
-    /*color: #ffffff;*/
-/*}*/
-
 div.tag {
     color: #CF8C92;
     background: #F9F9F9;
@@ -80,8 +58,6 @@ hr {
 }
 
 div.preview-text {
-    /*word-wrap: break-word;*/
-    /*white-space: pre-wrap;*/
     text-align: justify;
 }
 
@@ -118,7 +94,6 @@ blockquote {
 }
 
 #search_panel input[type=submit] {
-    /*height: 2.2rem;*/
     margin: 0;
     background: #428BCA;
     border: 0;
@@ -302,8 +277,6 @@ blockquote {
 
     h1.post_title {
         color: #303030;
-        /*margin-top: 0;*/
-        /*margin-bottom: 0;*/
     }
 
     div#text div {
@@ -526,7 +499,6 @@ blockquote {
     /*Стандартная страница*/
 
     p.post_date_2 {
-        /*margin: 0 ;*/
         font-family: Georgia,Times,"Times New Roman",serif;
         font-weight: 200;
         font-style: italic;
@@ -537,8 +509,6 @@ blockquote {
 
     h1.post_title {
         color: #303030;
-        /*margin-top: 0;*/
-        /*margin-bottom: 0;*/
     }
 
     div#text div {
@@ -571,7 +541,6 @@ blockquote {
 
     div#text pre {
         padding: 2rem;
-        /*background: #F9F9F9;*/
         word-wrap: break-word;
     }
 
@@ -658,7 +627,6 @@ blockquote {
 
     div#text pre {
         padding: 2rem;
-        /*background: #F9F9F9;*/
         word-wrap: break-word;
     }
 

@@ -89,4 +89,3 @@
         </div>
     </noindex>
     <div id="content">
-<!--	    <div id="text">-->
