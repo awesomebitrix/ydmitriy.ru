@@ -7,7 +7,7 @@ $APPLICATION->SetTitle("Портфолио");
 	array(
 		"IBLOCK_TYPE" => "portfolio",
 		"IBLOCK_ID" => "2",
-		"NEWS_COUNT" => "20",
+		"NEWS_COUNT" => "25",
 		"USE_SEARCH" => "N",
 		"TAGS_CLOUD_ELEMENTS" => "150",
 		"PERIOD_NEW_TAGS" => "",
@@ -91,6 +91,12 @@ $APPLICATION->SetTitle("Портфолио");
 		"TAGS_CLOUD_WIDTH" => "100%",
 		"USE_SHARE" => "N",
 		"AJAX_OPTION_ADDITIONAL" => "",
+		"COMPONENT_TEMPLATE" => "portfolio",
+		"SET_LAST_MODIFIED" => "N",
+		"DETAIL_SET_CANONICAL_URL" => "N",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"SHOW_404" => "N",
+		"MESSAGE_404" => "",
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "#SECTION_CODE#",

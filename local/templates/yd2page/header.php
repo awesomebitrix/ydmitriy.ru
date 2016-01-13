@@ -12,7 +12,6 @@
     <?$APPLICATION->SetAdditionalCSS("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");?>
     <?$APPLICATION->ShowHead();?>
     <?IncludeTemplateLangFile(__FILE__);?>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 <body>
 <?$APPLICATION->ShowPanel();?>
