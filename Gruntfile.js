@@ -12,13 +12,13 @@ module.exports = function(grunt) {
         concat: {
             dist: {
                 src: 'js/*.js',
-                dest: 'local/js/all.js'
+                dest: 'js/min/all.js'
             }
         },
         uglify: {
             dist: {
                 files: {
-                    'local/js/all.min.js': ['local/js/all.js']
+                    'js/min/all.min.js': ['js/min/all.js']
                 }
             }
         }
