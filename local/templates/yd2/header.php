@@ -21,6 +21,13 @@
     <!-- CSS -->
     <?$APPLICATION->ShowCSS();?>
     <!-- !CSS -->
+
+    <?
+        //  Фикс множества багов "Uncaught ReferenceError: BXHotKeys is not defined" для админа
+        if ($USER->IsAdmin())
+            $APPLICATION->ShowHeadStrings();
+    ?>
+
     <?IncludeTemplateLangFile(__FILE__);?>
     </head>
 <body>

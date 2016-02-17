@@ -12,8 +12,11 @@
         "PATH" => "/counter.php"
     )
 );?>
-
-<?$APPLICATION->ShowHeadStrings();?>
+<?
+    if (!$USER->IsAdmin()) {
+        $APPLICATION->ShowHeadStrings();
+    }
+?>
 <?$APPLICATION->ShowHeadScripts();?>
 </body>
 </html>
