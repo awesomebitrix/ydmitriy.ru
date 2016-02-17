@@ -13,7 +13,16 @@
     )
 );?>
 
-<?$APPLICATION->ShowHeadStrings();?>
+<!-- CSS -->
+<?$APPLICATION->ShowCSS();?>
+<!-- !CSS -->
+<!-- Scripts -->
+<?
+    if (!$USER->IsAdmin()) {
+        $APPLICATION->ShowHeadStrings();
+    }
+?>
 <?$APPLICATION->ShowHeadScripts();?>
+<!-- !Scripts -->
 </body>
 </html>

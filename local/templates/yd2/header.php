@@ -18,9 +18,12 @@
     <link rel="icon" href="<?=SITE_TEMPLATE_PATH?>/img/favicon1.ico" type="image/vnd.microsoft.icon"/>
     <?$APPLICATION->SetAdditionalCSS('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')?>
 
-    <!-- CSS -->
-    <?$APPLICATION->ShowCSS();?>
-    <!-- !CSS -->
+    <?
+        //  Фикс множества багов "Uncaught ReferenceError: BXHotKeys is not defined" для админа
+        if ($USER->IsAdmin())
+            $APPLICATION->ShowHeadStrings();
+    ?>
+
     <?IncludeTemplateLangFile(__FILE__);?>
     </head>
 <body>
