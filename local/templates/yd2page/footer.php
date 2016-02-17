@@ -12,5 +12,8 @@
         "PATH" => "/counter.php"
     )
 );?>
+
+<?$APPLICATION->ShowHeadStrings();?>
+<?$APPLICATION->ShowHeadScripts();?>
 </body>
 </html>

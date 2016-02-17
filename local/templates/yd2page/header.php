@@ -2,15 +2,25 @@
 <!doctype html>
 <html lang="ru">
 <head>
+    <title><?$APPLICATION->ShowTitle()?></title>
+    <!-- Meta -->
+    <meta http-equiv="Content-Type" content="text/html; charset=<?=LANG_CHARSET?>">
     <meta property="og:image" content="http://ydmitriy.ru/img/webdev.png"/>
     <meta property="og:title" content="<?$APPLICATION->ShowTitle()?>"/>
     <meta property="og:url" content="http://ydmitriy.ru<?=$APPLICATION->GetCurPage()?>"/>
     <meta property="og:description" content="<?$APPLICATION->ShowProperty("description")?>"/>
+    <meta name="p:domain_verify" content="ab7779b3d7f22e73c904eee707a9ae49"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?$APPLICATION->ShowTitle()?></title>
+    <?$APPLICATION->ShowMeta("keywords")?>
+    <?$APPLICATION->ShowMeta("description")?>
+    <!-- !Meta -->
+
     <link rel="icon" href="<?=SITE_TEMPLATE_PATH?>/img/favicon1.ico" type="image/vnd.microsoft.icon"/>
     <?$APPLICATION->SetAdditionalCSS("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");?>
-    <?$APPLICATION->ShowHead();?>
+
+    <!-- CSS -->
+    <?$APPLICATION->ShowCSS();?>
+    <!-- !CSS -->
     <?IncludeTemplateLangFile(__FILE__);?>
     </head>
 <body>
