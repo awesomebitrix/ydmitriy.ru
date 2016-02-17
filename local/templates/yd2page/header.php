@@ -14,7 +14,9 @@
     <?$APPLICATION->ShowMeta("keywords")?>
     <?$APPLICATION->ShowMeta("description")?>
     <!-- !Meta -->
-
+    <!-- CSS -->
+    <?$APPLICATION->ShowCSS();?>
+    <!-- !CSS -->
     <link rel="icon" href="<?=SITE_TEMPLATE_PATH?>/img/favicon1.ico" type="image/vnd.microsoft.icon"/>
     <?$APPLICATION->SetAdditionalCSS("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");?>
 

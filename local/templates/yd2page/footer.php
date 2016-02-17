@@ -13,9 +13,6 @@
     )
 );?>
 
-<!-- CSS -->
-<?$APPLICATION->ShowCSS();?>
-<!-- !CSS -->
 <!-- Scripts -->
 <?
     if (!$USER->IsAdmin()) {
