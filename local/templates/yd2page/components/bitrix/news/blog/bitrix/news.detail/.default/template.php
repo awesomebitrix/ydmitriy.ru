@@ -15,6 +15,12 @@
     </p>
     <div id="text">
         <?if($arParams["DISPLAY_PICTURE"]!="N" && is_array($arResult["DETAIL_PICTURE"])):?>
+            <?
+                //  Вызываем механизм отложенных функций для помещения изображения в шапку сайта
+                $image = (isset($arResult["PREVIEW_PICTURE"]["SRC"])) ? 'http://ydmitriy.ru' . $arResult["PREVIEW_PICTURE"]["SRC"] : 'http://ydmitriy.ru/img/webdev.png';
+                $APPLICATION->AddViewContent('head_image', $image);
+
+            ?>
             <img
                 class="detail_picture"
                 border="0"
