@@ -5,6 +5,7 @@
     <title><?$APPLICATION->ShowTitle()?></title>
     <!-- Meta -->
     <meta http-equiv="Content-Type" content="text/html; charset=<?=LANG_CHARSET?>">
+    <meta property="og:site_name" content="Языков Дмитрий Web-developer" />
     <meta property="og:image" content="<?=$APPLICATION->ShowViewContent('head_image');?>"/>
     <meta property="og:title" content="<?$APPLICATION->ShowTitle()?>"/>
     <meta property="og:url" content="http://ydmitriy.ru<?=$APPLICATION->GetCurPage()?>"/>
