@@ -29,8 +29,8 @@ h1 h2 h3 h4 {
     padding: 0 !important;
 }
 
-#search_form input[type=text] {
-    padding: 1rem;
+#search_form input[type=search] {
+    padding: 1rem 1rem 1rem 0;
     height: 2rem;
     margin: 0;
     background: #202020;
@@ -40,9 +40,9 @@ h1 h2 h3 h4 {
     border-bottom: 1px solid rgba(255,255,255,0.1);
     color: #fff;
     font-size: 1.25rem;
-    width: 65%;
+    width: 100%;
 }
-#search_form input[type=text]:focus {
+#search_form input[type=search]:focus {
     outline: none;
 }
 
