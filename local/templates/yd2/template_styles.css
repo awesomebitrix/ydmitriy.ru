@@ -25,38 +25,25 @@ h1 h2 h3 h4 {
 }
 
 /*Поиск*/
-#search_panel {
-    width: 100%;
-    border-bottom: 1px dashed #428BCA;
-    display: none;
-}
-
 #search_form {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 50rem;
-    min-width: 60%;
-    padding: 1rem 0 1rem 0;
-    vertical-align: middle;
+    padding: 0 !important;
 }
 
-#search_panel input[type=text] {
-    width: 85%;
+#search_form input[type=text] {
+    padding: 1rem;
     height: 2rem;
     margin: 0;
-    color: #428BCA;
-    font-size: 1.25rem;
-    padding-left: 0.5rem;
-}
-
-#search_panel input[type=submit] {
-    margin: 0;
-    background: #428BCA;
-    border: 0;
+    background: #202020;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
     color: #fff;
-    padding: 0.6rem;
-    border-radius: 3px;
+    font-size: 1.25rem;
+    width: 65%;
+}
+#search_form input[type=text]:focus {
+    outline: none;
 }
 
 /*Под большие мониторы*/

@@ -80,11 +80,6 @@
     <div id="workarea">
         <div id="header">
             <h1 class="name">
-                <span class="search_button">
-                    <noindex>
-                        <i class="fa fa-search"></i>
-                    </noindex>
-                </span>
                 <a href="/">
                     Языков Дмитрий<br>
                 </a>
@@ -103,14 +98,4 @@
                 </noindex>
             </div>
         </div>
-        <noindex>
-        <div id="search_panel">
-            <div id="search_form">
-                <form action="/search">
-                    <input type="text" name="q" value="" placeholder="Хочу почитать про...">
-                    <input type="submit" value="Поиск">
-                </form>
-            </div>
-        </div>
-        </noindex>
         <div id="content">

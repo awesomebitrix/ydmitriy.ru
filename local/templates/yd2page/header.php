@@ -79,9 +79,6 @@
 <div id="workarea">
     <div id="header">
         <h3 class="name">
-            <span class="search_button">
-                <i class="fa fa-search"></i>
-            </span>
             <a href="/">
                 Языков Дмитрий<br>
             </a>
@@ -93,15 +90,5 @@
                 </span>
         </h3>
     </div>
-    <noindex>
-        <div id="search_panel">
-            <div id="search_form">
-                <form action="/search">
-                    <input type="text" name="q" value="<?=trim(htmlspecialchars($_GET["q"]))?>" placeholder="Хочу почитать про...">
-                    <input type="submit" value="Поиск">
-                </form>
-            </div>
-        </div>
-    </noindex>
     <div id="content">
 <!--	    <div id="text">-->

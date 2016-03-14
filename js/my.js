@@ -22,27 +22,11 @@ function hideMenu()
     menuVis = 0;
 }
 
-function showSearch()
-{
-    $("#search_panel").slideDown(500);
-    $("#search_panel input[type=text]").focus();
-    searchVis = 1;
-}
-
-function hideSearch()
-{
-    $("#search_panel").slideUp(500);
-    $("#search_panel input[type=text]").focus();
-    searchVis = 0;
-}
-
 $(document).ready(function(){
     // Меню
     $("span.button").click(function(){
         if (menuVis == 0)
         {
-            if (searchVis == 1)
-                hideSearch();
             shomMenu();
             firstClick = 1;
         } else {
@@ -59,24 +43,6 @@ $(document).ready(function(){
                 firstClick = 0;
             }
         }
-    });
-    //  Поиск
-    $(".search_button").click(function(){
-        if (searchVis == 0)
-        {
-            if (canCloseSearch == 0)
-                $('html, body').animate({scrollTop:0}, 'slow');
-            showSearch();
-        } else {
-            if (canCloseSearch == 1)
-            {
-                hideSearch();
-            } else {
-                $('html, body').animate({scrollTop:0}, 'slow');
-                $("#search_panel input[type=text]").focus();
-            }
-        }
-        canCloseSearch = 1;
     });
     //  Проверка, можно ли закрыть скролинг
     $(window).scroll(function(){
