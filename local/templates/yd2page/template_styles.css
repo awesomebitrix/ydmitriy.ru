@@ -322,9 +322,8 @@ blockquote {
 
     div#social {
         color: #bfbfbf;
-        padding: 0;
+        padding-bottom: 0 !important;
         margin: 0;
-
     }
 
     div#social a {
