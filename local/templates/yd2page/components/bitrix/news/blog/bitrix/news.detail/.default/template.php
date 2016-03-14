@@ -34,5 +34,11 @@
         <?=$arResult["DETAIL_TEXT"]?>
     </div>
 <div class="tag">
-    <?=$arResult["PROPERTIES"]["BLOG_TAGS"]["VALUE"]?>
+    <?
+    $tags = explode(', ', $arResult["PROPERTIES"]["BLOG_TAGS"]["VALUE"]);
+
+    foreach ($tags as $tag) {
+        echo "<a href='/search/?q={$tag}'>{$tag}</a>";
+    }
+    ?>
 </div>

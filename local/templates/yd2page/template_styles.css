@@ -38,7 +38,7 @@ h1 h2 h3 h4 {
 div.input {
     position: relative;
 }
-div.tag {
+div.tag a{
     color: #CF8C92;
     background: #F9F9F9;
     font-size: 0.8rem;
