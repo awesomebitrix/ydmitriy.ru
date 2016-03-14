@@ -5,11 +5,11 @@
     <h1 class="post_title"><?=$arResult["NAME"]?></h1>
     <p class="post_date_2">
         <?=formatBDate($arResult["DATE_CREATE"])?>
-        <font style="float: right">
+        <font style="float: right; font-family:u1f400;">
             <?$frame = $this->createFrame()->begin();?>
-                <i class="fa fa-eye"></i> <?=$arResult["PROPERTIES"]["BLOG_VIEW"]["VALUE"]?>
+            &#128584; <?=$arResult["PROPERTIES"]["BLOG_VIEW"]["VALUE"]?>
             <?$frame->beginStub();?>
-            <i class="fa fa-eye"></i> ???
+            &#128584;??&infin;
             <?$frame->end();?>
         </font>
     </p>
