@@ -267,6 +267,11 @@ blockquote {
         color: #303030;
     }
 
+    .img-left {
+        float: left;
+        margin: 1rem 3rem 0 0;
+    }
+
     div#text div {
         font-size: 1.25rem;
         font-weight: 300;
