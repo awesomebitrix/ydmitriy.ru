@@ -1,7 +1,7 @@
         </div>
     </div>
-    <?$APPLICATION->AddHeadScript("/bower_components/jquery/dist/jquery.js")?>
-    <?$APPLICATION->AddHeadScript("/js/my.js")?>
+    <?$APPLICATION->AddHeadScript("/bower_components/jquery/dist/jquery.min.js")?>
+    <?$APPLICATION->AddHeadScript("/js/min/all.min.js")?>
     <?$APPLICATION->IncludeComponent(
         "bitrix:main.include",
         "",
