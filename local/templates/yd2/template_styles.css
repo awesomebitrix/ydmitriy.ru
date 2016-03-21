@@ -31,7 +31,7 @@ h1 h2 h3 h4 {
 
 #search_form input[type=search] {
     padding: 1rem 1rem 1rem 0;
-    height: 2rem;
+    /*height: 2rem;*/
     margin: 0;
     background: #202020;
     border-top: none;
