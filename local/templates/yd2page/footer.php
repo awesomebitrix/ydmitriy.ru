@@ -1,6 +1,6 @@
 </div>
 <?$APPLICATION->AddHeadScript("/bower_components/jquery/dist/jquery.min.js")?>
-<?$APPLICATION->AddHeadScript("https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=desert")?>
+<?$APPLICATION->AddHeadScript("https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert")?>
 <?$APPLICATION->AddHeadScript("/js/min/all.min.js")?>
 <?$APPLICATION->IncludeComponent(
     "bitrix:main.include",
