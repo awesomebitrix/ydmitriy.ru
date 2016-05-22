@@ -7,7 +7,7 @@ $APPLICATION->SetTitle("Портфолио");
 	array(
 		"IBLOCK_TYPE" => "portfolio",
 		"IBLOCK_ID" => "2",
-		"NEWS_COUNT" => "25",
+		"NEWS_COUNT" => "10",
 		"USE_SEARCH" => "N",
 		"TAGS_CLOUD_ELEMENTS" => "150",
 		"PERIOD_NEW_TAGS" => "",
@@ -72,7 +72,7 @@ $APPLICATION->SetTitle("Портфолио");
 		"DETAIL_PAGER_TITLE" => "Страница",
 		"DETAIL_PAGER_TEMPLATE" => "",
 		"DETAIL_PAGER_SHOW_ALL" => "Y",
-		"PAGER_TEMPLATE" => ".default",
+		"PAGER_TEMPLATE" => "beauty",
 		"DISPLAY_TOP_PAGER" => "N",
 		"DISPLAY_BOTTOM_PAGER" => "Y",
 		"PAGER_TITLE" => "Новости",
