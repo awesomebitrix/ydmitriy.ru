@@ -47,6 +47,33 @@ h1 h2 h3 h4 {
 }
 
 /*Под большие мониторы*/
+@media screen and (min-width: 1600px)
+{
+    div#menu {
+        width: 18rem;
+        height: 100%;
+        min-height: 5%;
+        background: #202020;
+        right: 0 !important;
+        left: auto;
+        /*position: fixed;*/
+        top: 0;
+        bottom: 0;
+        overflow-y: auto;
+        color: #fff;
+        z-index: 100;
+    }
+
+    span.button {
+        display: none;
+    }
+
+    div#workarea {
+        right: 10rem;
+    }
+}
+
+/*Под средние мониторы*/
 @media screen and (min-width: 600px)
 {
     #header {
@@ -151,8 +178,16 @@ h1 h2 h3 h4 {
         font-weight: 500;
         display: block;
         border-top: 1px solid rgba(255,255,255,0.1);
+        border-bottom: 1px solid #171717;
         padding: 1em 0 1em 2.5em;
+    }
 
+    div#menu a.menu_link:last-of-type {
+        border-bottom: none;
+    }
+
+    div#menu a.menu_link:first-of-type {
+        border-top: none;
     }
 
     div#menu a.menu_link:hover {
