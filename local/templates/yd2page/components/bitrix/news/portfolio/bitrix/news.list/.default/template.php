@@ -14,7 +14,14 @@ $this->setFrameMode(true);
                 </h2>
             </div>
             <div>
-                <?=CFile::ShowImage($arItem["PREVIEW_PICTURE"]["ID"]);?>
+                <img
+                    border="0"
+                    data-original="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"
+                    width="<?=$arItem["PREVIEW_PICTURE"]["WIDTH"]?>"
+                    height="<?=$arItem["PREVIEW_PICTURE"]["HEIGHT"]?>"
+                    alt="<?=$arItem["PREVIEW_PICTURE"]["ALT"]?>"
+                    title="<?=$arItem["PREVIEW_PICTURE"]["TITLE"]?>"
+                    />
             </div>
         </div>
 <?endforeach;?>
