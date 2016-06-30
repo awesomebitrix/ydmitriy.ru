@@ -1,0 +1,19 @@
+a.search-page-params {
+	border-bottom: 1px dashed blue;
+	text-decoration: none;
+}
+div.search-page-params {
+	margin-top: 6px;
+}
+.search-item-rate {
+    font-size: 11px;
+}
+/*Скрываем кнопку поиска*/
+.search_button {
+    display: none;
+}
+
+/*Зато показываем панель поиска*/
+#search_panel {
+    display: block !important;
+}
