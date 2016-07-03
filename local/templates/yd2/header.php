@@ -75,7 +75,6 @@
                 )
             );?>
         </div>
-        <div id="bx-composite-banner"></div>
     </div>
     <div id="workarea">
         <div id="header">
