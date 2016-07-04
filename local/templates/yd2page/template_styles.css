@@ -93,7 +93,27 @@ blockquote {
 /*  Ссылка на RSS канал */
 div.rss a {
     color: #fff;
+}
 
+/*  Разноцветные выделения ссылок   */
+.github:hover {
+    color: #9B59B6 !important;
+    background: none !important;
+}
+
+.vk:hover {
+    color: #4C75A3 !important;
+    background: none !important;
+}
+
+.instagram:hover {
+    color: #8E7253 !important;
+    background: none !important;
+}
+
+.twitter:hover {
+    color: #55ACEE !important;
+    background: none !important;
 }
 
 div.rss a:hover {
