@@ -284,6 +284,12 @@ div.rss a:hover {
     a.pages_item {
         color: #428BCA;
     }
+
+    a.pages_item:hover {
+        background: #428BCA;
+        color: #fff;
+    }
+
     span.pages_item {
         color: #ccc;
     }
@@ -473,6 +479,10 @@ div.rss a:hover {
     }
     a.pages_item {
         color: #428BCA;
+    }
+    a.pages_item:hover {
+        background: #428BCA;
+        color: #fff;
     }
     span.pages_item {
         color: #ccc;
