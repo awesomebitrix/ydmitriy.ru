@@ -39,7 +39,7 @@
                 "AREA_FILE_SHOW" => "file",
                 "AREA_FILE_SUFFIX" => "inc",
                 "EDIT_TEMPLATE" => "",
-                "PATH" => "/menutitle.php"
+                "PATH" => "/include/menutitle.php"
             )
         );?>
     </div>
@@ -70,7 +70,7 @@
                 "AREA_FILE_SHOW" => "file",
                 "AREA_FILE_SUFFIX" => "inc",
                 "EDIT_TEMPLATE" => "",
-                "PATH" => "/social.php"
+                "PATH" => "/include/social.php"
             )
         );?>
     </div>
@@ -81,7 +81,7 @@
             "AREA_FILE_SHOW" => "file",
             "AREA_FILE_SUFFIX" => "inc",
             "EDIT_TEMPLATE" => "",
-            "PATH" => "/rss.php"
+            "PATH" => "/include/rss.php"
         )
     );?>
 </div>

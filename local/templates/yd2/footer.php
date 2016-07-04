@@ -9,7 +9,7 @@
             "AREA_FILE_SHOW" => "file",
             "AREA_FILE_SUFFIX" => "inc",
             "EDIT_TEMPLATE" => "",
-            "PATH" => "/counter.php"
+            "PATH" => "/include/counter.php"
         )
     );?>
 
