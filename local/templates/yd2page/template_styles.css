@@ -90,6 +90,17 @@ blockquote {
     outline: none;
 }
 
+/*  Ссылка на RSS канал */
+div.rss a {
+    color: #fff;
+
+}
+
+div.rss a:hover {
+    color: #ffa324;
+    background: none;
+}
+
 /*Под большие мониторы*/
 @media screen and (min-width: 1600px)
 {

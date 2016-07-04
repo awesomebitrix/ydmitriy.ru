@@ -45,24 +45,24 @@
             );?>
         </div>
         <?$APPLICATION->IncludeComponent(
-	"bitrix:menu", 
-	"right_menu", 
-	array(
-		"ROOT_MENU_TYPE" => "top",
-		"MENU_CACHE_TYPE" => "Y",
-		"MENU_CACHE_TIME" => "36000",
-		"MENU_CACHE_USE_GROUPS" => "Y",
-		"MENU_CACHE_GET_VARS" => array(
-		),
-		"MAX_LEVEL" => "1",
-		"CHILD_MENU_TYPE" => "left",
-		"USE_EXT" => "N",
-		"DELAY" => "N",
-		"ALLOW_MULTI_SELECT" => "N",
-		"COMPONENT_TEMPLATE" => "right_menu"
-	),
-	false
-);?>
+            "bitrix:menu",
+            "right_menu",
+            array(
+                "ROOT_MENU_TYPE" => "top",
+                "MENU_CACHE_TYPE" => "Y",
+                "MENU_CACHE_TIME" => "36000",
+                "MENU_CACHE_USE_GROUPS" => "Y",
+                "MENU_CACHE_GET_VARS" => array(
+                ),
+                "MAX_LEVEL" => "1",
+                "CHILD_MENU_TYPE" => "left",
+                "USE_EXT" => "N",
+                "DELAY" => "N",
+                "ALLOW_MULTI_SELECT" => "N",
+                "COMPONENT_TEMPLATE" => "right_menu"
+            ),
+            false
+        );?>
         <div id="social">
             <?$APPLICATION->IncludeComponent(
                 "bitrix:main.include",
@@ -75,6 +75,16 @@
                 )
             );?>
         </div>
+        <?$APPLICATION->IncludeComponent(
+            "bitrix:main.include",
+            "",
+            Array(
+                "AREA_FILE_SHOW" => "file",
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "",
+                "PATH" => "/rss.php"
+            )
+        );?>
     </div>
     <div id="workarea">
         <div id="header">

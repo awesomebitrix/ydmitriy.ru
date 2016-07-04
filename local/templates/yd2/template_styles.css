@@ -45,6 +45,16 @@ h1 h2 h3 h4 {
     outline: none;
 }
 
+/*  Ссылка на RSS канал */
+div.rss a {
+    color: #fff;
+}
+
+div.rss a:hover {
+    color: #ffa324 !important;
+    background: none !important;
+}
+
 /*Под большие мониторы*/
 @media screen and (min-width: 1600px)
 {
