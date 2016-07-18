@@ -312,6 +312,16 @@ div.rss a:hover {
     div#social a:hover {
         background: #262626;
     }
+
+    .main_title {
+        display: block;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        font-family: "jubilat",Georgia,Times,"Times New Roman",serif;
+        line-height: 1.5;
+        margin: 1rem 0 0 0;
+    }
 }
 
 
@@ -505,5 +515,15 @@ div.rss a:hover {
 
     div#social a:hover {
         background: #262626;
+    }
+
+    .main_title {
+        display: block;
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        font-family: "jubilat",Georgia,Times,"Times New Roman",serif;
+        line-height: 1.5;
+        margin: 1rem 0 0 0;
     }
 }
