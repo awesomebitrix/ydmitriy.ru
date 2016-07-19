@@ -64,7 +64,7 @@ $APPLICATION->SetTitle("Портфолио");
 			4 => "",
 		),
 		"DETAIL_PROPERTY_CODE" => array(
-			0 => "",
+			0 => "PORTFOLIO_PREVIOUS",
 			1 => "",
 		),
 		"DETAIL_DISPLAY_TOP_PAGER" => "N",
