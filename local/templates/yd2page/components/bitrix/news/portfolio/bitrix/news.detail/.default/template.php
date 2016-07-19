@@ -1,6 +1,6 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 $this->setFrameMode(true);
-dump($arResult);
+//dump($arResult);
 ?>
 <h1 class="post_title"><?=$arResult["NAME"]?></h1>
 
