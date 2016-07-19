@@ -329,17 +329,18 @@ div.rss a:hover {
     /*Стандартная страница*/
 
     p.post_date_2 {
-        /*margin: 0 ;*/
         font-family: Georgia,Times,"Times New Roman",serif;
         font-weight: 200;
         font-style: italic;
         text-transform: none;
         color: #515151;
         font-size: 1.25em;
+        margin: 0 0 1rem 0;
     }
 
     h1.post_title {
         color: #303030;
+        margin-bottom: 1rem;
     }
 
     .img-left {
@@ -577,10 +578,12 @@ div.rss a:hover {
         text-transform: none;
         color: #515151;
         font-size: 1.25em;
+        margin: 0 0 1rem 0;
     }
 
     h1.post_title {
         color: #303030;
+        margin-bottom: 1rem;
     }
 
     div#text div {
