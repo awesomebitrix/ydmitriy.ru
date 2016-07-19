@@ -1,6 +1,6 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 $this->setFrameMode(true);
-//dump($arResult);
+dump($arResult);
 ?>
 <h1 class="post_title"><?=$arResult["NAME"]?></h1>
 
@@ -18,3 +18,11 @@ $this->setFrameMode(true);
     <?endif?>
     <?=$arResult["DETAIL_TEXT"]?>
 </div>
+
+<?if (count($arResult['PREVIOUS_PORTFOLIO']) > 0):?>
+    <div class="previous_portfolio">
+        <a href="<?= $arResult['PREVIOUS_PORTFOLIO']['DETAIL_PAGE_URL'] ?>">
+            Предыдущая версия: <?=$arResult['PREVIOUS_PORTFOLIO']['NAME']?>
+        </a>
+    </div>
+<?endif?>
