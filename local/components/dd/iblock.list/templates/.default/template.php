@@ -1,10 +1,10 @@
 <?
 if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();
-dump($arResult)
+//dump($arResult)
 ?>
 
 
-<?foreach ($arResult["SECTIONS"] as $section):?>
+<?foreach ($arResult["ITEMS"] as $section):?>
    <h2><?=$section["NAME"]?></h2>
     <ul>
         <?foreach ($arResult["ITEMS"] as $item):?>

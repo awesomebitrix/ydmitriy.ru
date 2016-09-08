@@ -35,6 +35,7 @@ $arComponentParameters = array(
             "MULTIPLE"  =>  "N",
             "ADDITIONAL_VALUES" =>  "N"
         ),
+        'CACHE_TIME'    =>  array(),
     ),
 );
 ?>
