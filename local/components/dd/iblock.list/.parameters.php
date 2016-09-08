@@ -35,6 +35,12 @@ $arComponentParameters = array(
             "MULTIPLE"  =>  "N",
             "ADDITIONAL_VALUES" =>  "N"
         ),
+        'ITEM_COUNT'    =>  array(
+            'PARENT'    =>  'BASE',
+            'NAME'      =>  'Количество получаемых изменений',
+            'TYPE'      =>  'STRING',
+            'DEFAULT'   =>  '10',
+        ),
         'CACHE_TIME'    =>  array(),
     ),
 );

@@ -1,9 +1,13 @@
 <?
 if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();
+//dump($arResult);
 ?>
 
-<ul>
-    <?foreach ($arResult["ITEMS"] as $item):?>
-        <li><?=$item["NAME"]?></li>
-    <?endforeach?>
-</ul>
+
+<?foreach ($arResult["ITEMS"] as $arItem):?>
+    <div id="<?=$this->GetEditAreaId($arItem['ID']);?>">
+        <h2><?=$arItem['NAME']?></h2>
+    </div>
+<?endforeach?>
+
+<?=$arResult['NAV_STRING']?>
