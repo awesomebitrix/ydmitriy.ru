@@ -12,7 +12,8 @@ a {
 }
 
 a:hover {
-    background: #EEEEEE;
+    background: #EFF7FD;
+    color: rgba(70, 148, 214, 0.91);
 }
 
 h1 h2 h3 h4 {
