@@ -10,7 +10,7 @@ $APPLICATION->SetTitle("Контакты");
         <h1>Контактная информация</h1>
     </noindex>
     Связаться со мной: <br><br>
-    <b>Телефон: </b><span itemprop="telephone">+7 (951) 069-52-39 </span> <i>(с 9 до 18)</i><br><br>
+    <b>Телефон: </b><span itemprop="telephone">+7 (951) 069-52-39 </span> <i>[call, telegram]</i><br><br>
     <b>Email: </b><span itemprop="email"><a href="mailto:work@ydmitriy.ru">work@ydmitriy.ru</a></span><br>
     <b>Skype: </b><a href='skype:d1mas91'>d1mas91</a><br><br>
 
