@@ -31,7 +31,7 @@
 <body>
 <?$APPLICATION->ShowPanel();?>
 <div id="menu">
-    <div>
+    <div class="menu-inner">
         <?$APPLICATION->IncludeComponent(
             "bitrix:main.include",
             "",
@@ -62,7 +62,7 @@
 	),
 	false
 );?>
-    <div id="social">
+    <div id="social" class="menu-inner">
         <?$APPLICATION->IncludeComponent(
             "bitrix:main.include",
             "",

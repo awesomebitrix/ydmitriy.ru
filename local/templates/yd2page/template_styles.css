@@ -262,7 +262,7 @@ div.rss a:hover {
         background: #353535;
     }
 
-    div#menu div {
+    div#menu div.menu-inner {
         padding: 2em;
         font-size: 1.2rem;
     }
@@ -510,7 +510,7 @@ div.rss a:hover {
         background: #353535;
     }
 
-    div#menu div {
+    div#menu div.menu-inner {
         padding: 2em 2em 2em 2em;
         font-size: 1.2rem;
     }
@@ -667,7 +667,7 @@ div.rss a:hover {
         display: none;
     }
 
-    div#menu div {
+    div#menu div.menu-inner {
         display: none;
     }
 
