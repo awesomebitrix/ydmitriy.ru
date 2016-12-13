@@ -8,7 +8,7 @@ $APPLICATION->SetTitle("Языков Дмитрий - Обо мне");
 
 
 <div id="text">
-    <img src="http://ydmy.ru/upload/img/oyOAwC8-vpU.jpg" class="img-left"/>
+    <img width="409" alt="Языков Дмитрий" src="/upload/medialibrary/365/365dbafa07dd93e2d2479b67242a2f94.jpg" height="614" title="Языков Дмитрий" class="img-left">
     <div>Меня зовут Языков Дмитрий, мне 25 лет и я web-developer.</div>
 
 	<h2>Чем я могу быть полезен:</h2>
