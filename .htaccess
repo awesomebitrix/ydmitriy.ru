@@ -15,19 +15,19 @@ ErrorDocument 404 /404.php
   Options +FollowSymLinks
   RewriteEngine On
 
-  RewriteCond %{HTTP_HOST} ^www.ydmitry\.ru$ [NC]
+  RewriteCond %{HTTP_HOST} ^www\.ydmitry\.ru$ [NC]
   RewriteRule ^(.*)$ https://ydmitry.ru/$1 [R=301,L]
 
   RewriteCond %{HTTP_HOST} ^ydmitriy\.ru$ [NC]
   RewriteRule ^(.*)$ https://ydmitry.ru/$1 [R=301,L]
 
-  RewriteCond %{HTTP_HOST} ^www.ydmitriy\.ru$ [NC]
+  RewriteCond %{HTTP_HOST} ^www\.ydmitriy\.ru$ [NC]
   RewriteRule ^(.*)$ https://ydmitry.ru/$1 [R=301,L]
 
   RewriteCond %{HTTP_HOST} ^ydmy\.ru$ [NC]
   RewriteRule ^(.*)$ https://ydmitry.ru/$1 [R=301,L]
 
-  RewriteCond %{HTTP_HOST} ^www.ydmy\.ru$ [NC]
+  RewriteCond %{HTTP_HOST} ^www\.ydmy\.ru$ [NC]
   RewriteRule ^(.*)$ https://ydmitry.ru/$1 [R=301,L]
 
   RewriteCond %{REQUEST_FILENAME} !-f
