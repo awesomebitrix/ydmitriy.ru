@@ -22,6 +22,13 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
+		"Проекты",
+		"/projects/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
 		"Обо мне",
 		"/resume/", 
 		Array(), 
