@@ -18,6 +18,9 @@ ErrorDocument 404 /404.php
   RewriteCond %{HTTP_HOST} ^www\.ydmitry\.ru$ [NC]
   RewriteRule ^(.*)$ https://ydmitry.ru/$1 [R=301,L]
 
+  RewriteCond %{HTTP_HOST} http://ydmitry\.ru$ [NC]
+  RewriteRule ^(.*)$ https://ydmitry.ru/$1 [R=301,L]
+
   RewriteCond %{HTTP_HOST} ^ydmitriy\.ru$ [NC]
   RewriteRule ^(.*)$ https://ydmitry.ru/$1 [R=301,L]
 
