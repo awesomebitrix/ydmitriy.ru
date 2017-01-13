@@ -17,6 +17,7 @@ $APPLICATION->SetTitle("Контакты");
     Или если вам просто интересно кто я такой и чем увлекаюсь:<br><br>
     <b>GitHub: </b><a href="http://github.com/d1mas91" target="_blank">github.com/d1mas91</a><br>
     <b>Bitbucket: </b><a href="https://bitbucket.org/D1maS91/" target="_blank">bitbucket.org/d1mas91</a><br>
+    <b>Packagist: </b><a href="https://packagist.org/users/D1maS91/" target="_blank">packagist.org/user/d1mas91</a><br><br>
 
     <b>ВКонтакте: </b><a href="http://vk.com/d1mas91" target="_blank">vk.com/d1mas91</a><br>
     <b>LinkedIn: </b><a href="https://www.linkedin.com/in/дмитрий-языков-a170b057" target="_blank">linkedin.com/...</a><br>
