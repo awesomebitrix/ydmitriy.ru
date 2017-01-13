@@ -12,7 +12,7 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 ?>
-
+<h1><?=$APPLICATION->ShowTitle()?></h1>
 <?if($arParams["USE_SEARCH"]=="Y"):?>
 <?=GetMessage("SEARCH_LABEL")?><?$APPLICATION->IncludeComponent(
 	"bitrix:search.form",

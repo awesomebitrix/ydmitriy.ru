@@ -60,8 +60,10 @@ $this->createFrame()->begin();
 		"ADD_ELEMENT_CHAIN" => (isset($arParams["ADD_ELEMENT_CHAIN"]) ? $arParams["ADD_ELEMENT_CHAIN"] : '')
 	),
 	$component
-);?><p><a href="<?=$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["news"]?>"><?=GetMessage("T_NEWS_DETAIL_BACK")?></a></p>
+);?>
+
 <hr/>
+
 <?$APPLICATION->IncludeComponent(
     "bitrix:main.include",
     "",
@@ -72,3 +74,5 @@ $this->createFrame()->begin();
         "PATH" => "/vk.php"
     )
 );?>
+
+<p><a href="<?=$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["news"]?>"><?=GetMessage("T_NEWS_DETAIL_BACK")?></a></p>

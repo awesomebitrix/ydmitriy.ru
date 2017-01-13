@@ -2,7 +2,7 @@
 $this->setFrameMode(true);
 //dump($arResult);
 ?>
-    <h1 class="post_title"><?=$arResult["NAME"]?></h1>
+    <h1><?=$arResult["NAME"]?></h1>
     <p class="post_date_2">
         <?=formatBDate($arResult["DATE_CREATE"])?>
     </p>
@@ -29,7 +29,14 @@ $this->setFrameMode(true);
     </div>
 
     <div class="git">
+
         <h3>Присоединиться:</h3>
+
+        <?if (!empty($arResult['PROPERTIES']['PROJECT_PACKAGIST']['VALUE'])):?>
+            <p>
+                <a href="<?=$arResult['PROPERTIES']['PROJECT_PACKAGIST']['VALUE']?>" target="_blank">Packagist</a>
+            </p>
+        <?endif?>
         <?if (!empty($arResult['PROPERTIES']['PROJECT_GITHUB']['VALUE'])):?>
             <p>
                 <a href="<?=$arResult['PROPERTIES']['PROJECT_GITHUB']['VALUE']?>" target="_blank">GitHub</a>
