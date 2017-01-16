@@ -120,6 +120,21 @@ div.rss a:hover {
     background: none;
 }
 
+a.back-url {
+    font-family: "brandon-grotesque","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 10pt;
+    float: left;
+    display: block;
+    padding: 1px 7px;
+    border: 1px solid #eee;
+    margin: 0 1rem 0 0;
+}
+
+a.back-url:hover {
+    background: #428BCA;
+    color: #fff;
+}
+
 /*Под большие мониторы*/
 @media screen and (min-width: 1600px)
 {

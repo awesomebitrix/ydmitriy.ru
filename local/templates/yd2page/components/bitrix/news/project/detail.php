@@ -64,6 +64,12 @@ $this->createFrame()->begin();
 
 <hr/>
 
+<p>
+    <a href="<?=$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["news"]?>" class="back-url">
+        <?=GetMessage("T_NEWS_DETAIL_BACK")?>
+    </a>
+</p>
+
 <?$APPLICATION->IncludeComponent(
     "bitrix:main.include",
     "",
@@ -74,5 +80,3 @@ $this->createFrame()->begin();
         "PATH" => "/vk.php"
     )
 );?>
-
-<p><a href="<?=$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["news"]?>"><?=GetMessage("T_NEWS_DETAIL_BACK")?></a></p>

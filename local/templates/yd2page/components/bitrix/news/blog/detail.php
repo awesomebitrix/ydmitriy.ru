@@ -60,8 +60,16 @@ $this->createFrame()->begin();
 		"ADD_ELEMENT_CHAIN" => (isset($arParams["ADD_ELEMENT_CHAIN"]) ? $arParams["ADD_ELEMENT_CHAIN"] : '')
 	),
 	$component
-);?><p><a href="<?=$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["news"]?>"><?=GetMessage("T_NEWS_DETAIL_BACK")?></a></p>
+);?>
+
 <hr/>
+
+<p>
+    <a href="<?=$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["news"]?>" class="back-url">
+        <?=GetMessage("T_NEWS_DETAIL_BACK")?>
+    </a>
+</p>
+
 <?$APPLICATION->IncludeComponent(
     "bitrix:main.include",
     "",
