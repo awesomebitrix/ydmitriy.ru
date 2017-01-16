@@ -21,8 +21,13 @@ $this->setFrameMode(true);
 
 <?if (count($arResult['PREVIOUS_PORTFOLIO']) > 0):?>
     <div class="previous_portfolio">
-        <a href="<?= $arResult['PREVIOUS_PORTFOLIO']['DETAIL_PAGE_URL'] ?>">
-            Предыдущая версия: <?=$arResult['PREVIOUS_PORTFOLIO']['NAME']?>
-        </a>
+        <h3>
+            Предыдущая версия:
+        </h3>
+        <div class="previous-preview">
+            <a href="<?= $arResult['PREVIOUS_PORTFOLIO']['DETAIL_PAGE_URL'] ?>">
+                <?=$arResult['PREVIOUS_PORTFOLIO']['PREVIEW_PICTURE']?>
+            </a>
+        </div>
     </div>
 <?endif?>

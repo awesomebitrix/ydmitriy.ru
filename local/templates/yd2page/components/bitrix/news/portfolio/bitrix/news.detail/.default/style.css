@@ -1,4 +1,9 @@
-div.previous_portfolio {
-    /*background-color: #dae4ea;*/
-    /*padding: 1rem 0 1rem 0;*/
+.previous_portfolio {
+    clear: both;
+}
+.previous-preview {
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 0 1rem 0;
 }

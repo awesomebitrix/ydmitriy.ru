@@ -15,10 +15,13 @@ if (!empty($arResult['PROPERTIES']['PORTFOLIO_PREVIOUS']['VALUE'])) {
             'ID',
             'NAME',
             'DETAIL_PAGE_URL',
+            'PREVIEW_PICTURE',
         )
     );
     if ($arPrevPortfolio = $dbPrevPortfolio->GetNext()) {
         //  Записываем найденный элемент в arResult
         $arResult['PREVIOUS_PORTFOLIO'] = $arPrevPortfolio;
+        //  Получаем файл изображения
+        $arResult['PREVIOUS_PORTFOLIO']['PREVIEW_PICTURE'] = CFile::ShowImage($arPrevPortfolio['PREVIEW_PICTURE'], 250, 500);
     }
 }
