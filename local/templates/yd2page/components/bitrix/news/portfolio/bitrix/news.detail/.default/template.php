@@ -2,7 +2,7 @@
 $this->setFrameMode(true);
 //dump($arResult);
 ?>
-<h1 class="post_title"><?=$arResult["NAME"]?></h1>
+<h1><?=$arResult["NAME"]?></h1>
 
 <div id="text">
     <?if($arParams["DISPLAY_PICTURE"]!="N" && is_array($arResult["DETAIL_PICTURE"])):?>

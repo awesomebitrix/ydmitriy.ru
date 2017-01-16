@@ -87,9 +87,11 @@ endif;?>
 	<?if($arParams["DISPLAY_TOP_PAGER"] != "N") echo $arResult["NAV_STRING"]?>
 
     <?foreach($arResult["SEARCH"] as $arItem):?>
-        <h1 class="post_title"><a href="<?=$arItem["URL"]?>"><?=$arItem["TITLE_FORMATED"]?></a></h1>
-        <p class="post_date_2"><?=formatBDate($arItem["DATE_CHANGE"])?></p>
-        <div id="text"><?=$arItem["BODY_FORMATED"]?></div>
+        <div class="topic">
+            <h2><a href="<?=$arItem["URL"]?>"><?=$arItem["TITLE_FORMATED"]?></a></h2>
+            <p class="post_date_2"><?=formatBDate($arItem["DATE_CHANGE"])?></p>
+            <div id="text"><?=$arItem["BODY_FORMATED"]?></div>
+        </div>
     <?endforeach;?>
 
 	<?if($arParams["DISPLAY_BOTTOM_PAGER"] != "N") echo $arResult["NAV_STRING"]?>

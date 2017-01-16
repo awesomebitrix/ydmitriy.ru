@@ -351,9 +351,11 @@ a.back-url:hover {
         margin: 0 0 1rem 0;
     }
 
-    h1.post_title {
-        color: #303030;
-        margin-bottom: 1rem;
+    div.topic h2 a {
+        color: #515151;
+        line-height: 1.5;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
     }
 
     .img-left {
@@ -592,11 +594,6 @@ a.back-url:hover {
         color: #515151;
         font-size: 1.25em;
         margin: 0 0 1rem 0;
-    }
-
-    h1.post_title {
-        color: #303030;
-        margin-bottom: 1rem;
     }
 
     div#text div {

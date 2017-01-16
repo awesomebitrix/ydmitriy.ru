@@ -2,7 +2,7 @@
 //$this->setFrameMode(true);
 //dump($arResult);
 ?>
-    <h1 class="post_title"><?=$arResult["NAME"]?></h1>
+    <h1><?=$arResult["NAME"]?></h1>
     <p class="post_date_2">
         <?=formatBDate($arResult["DATE_CREATE"])?>
         <font style="float: right; font-family:u1f400;">
