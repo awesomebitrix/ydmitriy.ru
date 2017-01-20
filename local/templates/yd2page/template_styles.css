@@ -8,7 +8,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #303030;
+    color: #515151;
 }
 
 a:hover {
@@ -124,6 +124,10 @@ a.back-url {
 a.back-url:hover {
     background: #428BCA;
     color: #fff;
+}
+
+h1, h2, h3, h4 {
+    margin: 2rem 0 0 0;
 }
 
 /*Под большие мониторы*/
@@ -324,7 +328,7 @@ a.back-url:hover {
     div.topic h2 a {
         color: #515151;
         line-height: 1.5;
-        font-size: 2.5rem;
+        /*font-size: 2.5rem;*/
         margin-bottom: 2rem;
     }
 
@@ -377,7 +381,7 @@ a.back-url:hover {
     img {
         display: block;
         max-width: 100%;
-        margin: 0 auto 2rem;
+        margin: 1rem auto 1rem;
         height: auto;
     }
 
