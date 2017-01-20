@@ -134,6 +134,14 @@ div.rss a:hover {
         background: none;
     }
 
+    /*Профессия*/
+    span.profession {
+        font-family: "jubilat",Georgia,Times,"Times New Roman",serif;
+        font-weight: 100;
+        font-style: italic;
+        text-transform: none;
+    }
+
     /*Кнопка-бифштекс для меню*/
     span.button {
         cursor: pointer;
@@ -363,6 +371,15 @@ div.rss a:hover {
     div.arrow a:hover {
         background: none;
     }
+
+    /*Профессия*/
+    span.profession {
+        font-family: "jubilat",Georgia,Times,"Times New Roman",serif;
+        font-weight: 100;
+        font-style: italic;
+        text-transform: none;
+    }
+
     /*Меню*/
     div#menu {
         width: 18rem;

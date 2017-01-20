@@ -197,6 +197,14 @@ h1, h2, h3, h4 {
         background: none;
     }
 
+    /*Профессия*/
+    span.profession {
+        font-family: Georgia,Times,"Times New Roman",serif;
+        font-weight: 100;
+        font-style: italic;
+        text-transform: none;
+    }
+
 /*Кнопка-бифштекс для меню*/
     span.button {
         cursor: pointer;
@@ -435,6 +443,14 @@ h1, h2, h3, h4 {
     h3.name a:hover {
         opacity: 0.80;
         background: none;
+    }
+
+    /*Профессия*/
+    span.profession {
+        font-family: Georgia,Times,"Times New Roman",serif;
+        font-weight: 100;
+        font-style: italic;
+        text-transform: none;
     }
 
     span.button {
