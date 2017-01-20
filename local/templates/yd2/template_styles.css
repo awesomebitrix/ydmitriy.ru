@@ -16,15 +16,6 @@ a:hover {
     color: rgba(70, 148, 214, 0.91);
 }
 
-h1 h2 h3 h4 {
-    margin-bottom: 0.5rem;
-    font-family: "brandon-grotesque","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 900;
-    line-height: 1.25;
-    text-transform: uppercase;
-    color: #515151;
-}
-
 /*Поиск*/
 #search_form {
     padding: 0 !important;
@@ -143,13 +134,7 @@ div.rss a:hover {
         background: none;
     }
 
-    span.profession {
-        font-family: "jubilat",Georgia,Times,"Times New Roman",serif;
-        font-weight: 100;
-        font-style: italic;
-        text-transform: none;
-    }
-/*Кнопка-бифштекс для меню*/
+    /*Кнопка-бифштекс для меню*/
     span.button {
         cursor: pointer;
         position: fixed;
@@ -163,20 +148,7 @@ div.rss a:hover {
         color: #000;
     }
 
-/*Кнопка поиска*/
-    span.search_button {
-        cursor: pointer;
-        position: fixed;
-        left: 2rem;
-        top: 2rem;
-        color: #515151;
-        font-size: 2rem;
-    }
-
-    span.search_button:hover {
-        color: #000;
-    }
-
+    /*Стрелочка вниз*/
     div.arrow {
         cursor: pointer;
         text-align: center;
@@ -191,6 +163,7 @@ div.rss a:hover {
     div.arrow a:hover {
         background: none;
     }
+
     /*Меню*/
     div#menu {
         width: 18rem;
@@ -232,6 +205,7 @@ div.rss a:hover {
         padding: 2em;
         font-size: 1.2rem;
     }
+
     /*Контент*/
     div#content {
         width: 90%;
@@ -244,10 +218,6 @@ div.rss a:hover {
         font-size: 1.25rem;
         text-align: left;
         min-width: 60%;
-    }
-
-    div.post h1 {
-        margin: 1rem 0 0 0;
     }
 
     div.post {
@@ -300,6 +270,7 @@ div.rss a:hover {
         margin: 0 auto 2rem;
     }
 
+    /*Социальные сети*/
     div#social {
         color: #bfbfbf;
         padding-bottom: 0 !important;
@@ -318,9 +289,12 @@ div.rss a:hover {
         font-size: 2em;
         font-weight: bold;
         text-align: center;
-        font-family: "jubilat",Georgia,Times,"Times New Roman",serif;
         line-height: 1.5;
         margin: 1rem 0 0 0;
+        }
+
+    .main_title a {
+        color: #515151;
     }
 }
 
@@ -360,13 +334,6 @@ div.rss a:hover {
         background: none;
     }
 
-    span.profession {
-        font-family: "jubilat",Georgia,Times,"Times New Roman",serif;
-        font-weight: 100;
-        font-style: italic;
-        text-transform: none;
-    }
-
     span.button {
         cursor: pointer;
         position: fixed;
@@ -380,24 +347,11 @@ div.rss a:hover {
         color: #000;
     }
 
-    /*Кнопка поиска*/
-    span.search_button {
-        cursor: pointer;
-        position: fixed;
-        left: 2rem;
-        top: 2rem;
-        color: #515151;
-        font-size: 2rem;
-    }
-
-    span.search_button:hover {
-        color: #000;
-    }
-
+    /*Стрелка вниз*/
     div.arrow {
         cursor: pointer;
         text-align: center;
-        padding: 0em;
+        padding: 0;
     }
 
     div.arrow a {
@@ -522,8 +476,11 @@ div.rss a:hover {
         font-size: 1.5em;
         font-weight: bold;
         text-align: center;
-        font-family: "jubilat",Georgia,Times,"Times New Roman",serif;
         line-height: 1.5;
         margin: 1rem 0 0 0;
+    }
+
+    .main_title a {
+        color: #515151;
     }
 }
