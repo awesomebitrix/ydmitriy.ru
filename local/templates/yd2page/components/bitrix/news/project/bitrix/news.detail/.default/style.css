@@ -11,3 +11,13 @@ div.news-detail img.detail_picture
 {
 	color:#486DAA;
 }
+
+p.post_date_2 {
+    font-family: Georgia,Times,"Times New Roman",serif;
+    font-weight: 200;
+    font-style: italic;
+    text-transform: none;
+    color: #515151;
+    font-size: 1.25em;
+    margin: 0 0 1rem 0;
+}

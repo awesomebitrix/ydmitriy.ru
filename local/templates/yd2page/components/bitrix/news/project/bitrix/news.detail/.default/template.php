@@ -28,7 +28,7 @@ $this->setFrameMode(true);
         <?=$arResult["DETAIL_TEXT"]?>
     </div>
 
-    <div class="git">
+    <div>
 
         <h3>Присоединиться:</h3>
 

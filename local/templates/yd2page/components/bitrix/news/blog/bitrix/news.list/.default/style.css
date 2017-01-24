@@ -1,21 +1,10 @@
-a.search-page-params {
-	border-bottom: 1px dashed blue;
-	text-decoration: none;
-}
-div.search-page-params {
-	margin-top: 6px;
-}
-.search-item-rate {
-    font-size: 11px;
-}
-/*Скрываем кнопку поиска*/
-.search_button {
-    display: none;
+.blog-image {
+    margin: 0 1rem 1rem 0;
+    float: left;
 }
 
-/*Зато показываем панель поиска*/
-#search_panel {
-    display: block !important;
+.preview-text {
+    text-align: justify;
 }
 
 .topic h2 a {

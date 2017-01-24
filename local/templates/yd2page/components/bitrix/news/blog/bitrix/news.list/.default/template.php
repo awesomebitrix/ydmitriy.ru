@@ -13,7 +13,7 @@ $this->setFrameMode(true);
         <p class="post_date_2"><?=formatBDate($arItem["DATE_CREATE"])?></p>
         <img
             border="0"
-            style='margin: 0.5rem 1rem 1rem 0; float: left;'
+            class="blog-image"
             data-original="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"
             width="<?=$arItem["PREVIEW_PICTURE"]["WIDTH"]?>"
             height="<?=$arItem["PREVIEW_PICTURE"]["HEIGHT"]?>"

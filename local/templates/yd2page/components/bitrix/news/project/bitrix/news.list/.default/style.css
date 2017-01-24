@@ -1,0 +1,19 @@
+.project-image {
+    margin: 0 1rem 1rem 0;
+    float: left;
+}
+
+.preview-text {
+    text-align: justify;
+}
+
+.topic h2 a {
+    color: #515151;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.topic h2 a:hover {
+    background: #EFF7FD;
+    color: rgba(70, 148, 214, 0.91);
+}

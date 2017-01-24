@@ -11,7 +11,7 @@ $this->setFrameMode(true);
     <div class="topic">
         <img
             border="0"
-            style='margin: 0.5rem 1rem 1rem 0; float: left;'
+            class="project-image"
             data-original="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"
             width="<?=$arItem["PREVIEW_PICTURE"]["WIDTH"]?>"
             height="<?=$arItem["PREVIEW_PICTURE"]["HEIGHT"]?>"
