@@ -4,7 +4,7 @@ $this->setFrameMode(true);
 ?>
     <h1><?=$arResult["NAME"]?></h1>
     <p class="post_date_2">
-        <?=formatBDate($arResult["DATE_CREATE"])?>
+        <?=Helpers::formatBDate($arResult["DATE_CREATE"])?>
     </p>
     <div id="text">
         <?if($arParams["DISPLAY_PICTURE"]!="N" && is_array($arResult["DETAIL_PICTURE"])):?>

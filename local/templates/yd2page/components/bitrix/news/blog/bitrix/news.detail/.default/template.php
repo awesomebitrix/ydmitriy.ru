@@ -4,7 +4,7 @@
 ?>
     <h1><?=$arResult["NAME"]?></h1>
     <p class="post_date_2">
-        <?=formatBDate($arResult["DATE_CREATE"])?>
+        <?=Helpers::formatBDate($arResult["DATE_CREATE"])?>
         <font style="float: right; font-family:u1f400;">
             <?$frame = $this->createFrame()->begin();?>
             &#128584; <?=$arResult["PROPERTIES"]["BLOG_VIEW"]["VALUE"]?>

@@ -10,7 +10,7 @@ $this->setFrameMode(true);
         ?>
         <div id="<?=$this->GetEditAreaId($arItem['ID']);?>" class="post">
             <h2 class="main_title"><a href="<?=$arItem["DETAIL_PAGE_URL"]?>"><?=$arItem["NAME"]?></a></h2>
-            <p class="post_date"><?=formatBDate($arItem["DATE_CREATE"])?></p>
+            <p class="post_date"><?=Helpers::formatBDate($arItem["DATE_CREATE"])?></p>
         </div>
     <?endforeach;?>
 </div>

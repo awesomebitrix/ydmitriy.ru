@@ -89,7 +89,7 @@ endif;?>
     <?foreach($arResult["SEARCH"] as $arItem):?>
         <div class="topic">
             <h2><a href="<?=$arItem["URL"]?>"><?=$arItem["TITLE_FORMATED"]?></a></h2>
-            <p class="post_date_2"><?=formatBDate($arItem["DATE_CHANGE"])?></p>
+            <p class="post_date_2"><?=Helpers::formatBDate($arItem["DATE_CHANGE"])?></p>
             <div id="text"><?=$arItem["BODY_FORMATED"]?></div>
         </div>
     <?endforeach;?>
