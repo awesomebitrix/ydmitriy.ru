@@ -29,4 +29,6 @@ if (!$USER->IsAdmin())
     //  Записываем новые значения
     CIBlockElement::SetPropertyValuesEx($ID, $arParams["IBLOCK_ID"], array("BLOG_VIEW"=>++$count));
 }
-?>
+
+//  Установка og:image в <head>
+$APPLICATION->AddViewContent('head_image', $arResult['OG_IMAGE']);

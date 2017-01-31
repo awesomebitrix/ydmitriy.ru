@@ -1,6 +1,6 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 //$this->setFrameMode(true);
-//dump($arResult);
+//Helpers::dump($arResult);
 ?>
     <h1><?=$arResult["NAME"]?></h1>
     <p class="post_date_2">
@@ -15,12 +15,6 @@
     </p>
     <div id="text">
         <?if($arParams["DISPLAY_PICTURE"]!="N" && is_array($arResult["DETAIL_PICTURE"])):?>
-            <?
-                //  Вызываем механизм отложенных функций для помещения изображения в шапку сайта
-                $image = (isset($arResult["PREVIEW_PICTURE"]["SRC"])) ? 'https://ydmitry.ru' . $arResult["PREVIEW_PICTURE"]["SRC"] : 'https://ydmitry.ru/img/webdev.png';
-                $APPLICATION->AddViewContent('head_image', $image);
-
-            ?>
             <img
                 class="detail_picture"
                 border="0"
