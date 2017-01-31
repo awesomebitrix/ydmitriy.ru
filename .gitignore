@@ -1,0 +1,17 @@
+/bitrix/
+/bower_components/
+upload/
+*.txt
+/test/
+counter.php
+vk.php
+.idea/
+node_modules/
+.vagrant/
+*test*.*
+sitemap*.*
+google*.*
+yandex*.*
+urlrewrite.php
+web.config
+composer.phar
