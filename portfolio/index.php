@@ -97,6 +97,8 @@ $APPLICATION->SetTitle("Портфолио");
 		"PAGER_BASE_LINK_ENABLE" => "N",
 		"SHOW_404" => "N",
 		"MESSAGE_404" => "",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO",
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "#SECTION_CODE#",
