@@ -8,7 +8,7 @@
     <meta property="og:site_name" content="Языков Дмитрий Web-developer" />
     <meta property="og:image" content="<?=$APPLICATION->ShowViewContent('head_image');?>"/>
     <meta property="og:title" content="<?$APPLICATION->ShowTitle()?>"/>
-    <meta property="og:url" content="http://ydmitriy.ru<?=$APPLICATION->GetCurPage()?>"/>
+    <meta property="og:url" content="https://ydmitriy.ru<?=$APPLICATION->GetCurPage()?>"/>
     <meta property="og:description" content="<?$APPLICATION->ShowProperty("description")?>"/>
     <meta name="p:domain_verify" content="ab7779b3d7f22e73c904eee707a9ae49"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -100,4 +100,3 @@
         </h3>
     </div>
     <div id="content">
-<!--	    <div id="text">-->

@@ -6,9 +6,9 @@
     <!-- Meta -->
     <meta http-equiv="Content-Type" content="text/html; charset=<?=LANG_CHARSET?>">
     <meta property="og:site_name" content="Языков Дмитрий Web-developer" />
-    <meta property="og:image" content="http://ydmitriy.ru/img/webdev.png"/>
+    <meta property="og:image" content="https://ydmitriy.ru/img/webdev.png"/>
     <meta property="og:title" content="<?$APPLICATION->ShowTitle()?>"/>
-    <meta property="og:url" content="http://ydmitriy.ru<?=$APPLICATION->GetCurPage()?>"/>
+    <meta property="og:url" content="https://ydmitriy.ru<?=$APPLICATION->GetCurPage()?>"/>
     <meta property="og:description" content="<?$APPLICATION->ShowProperty("description")?>"/>
     <meta name="p:domain_verify" content="ab7779b3d7f22e73c904eee707a9ae49"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
