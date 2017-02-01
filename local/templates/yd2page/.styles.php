@@ -1,8 +1,9 @@
 <?
 return array(
-	"div#text div" => "Обычный",
-	"div#text h2" => "Заголовок 2",
-	"div#text code" => "Код",
-	"div#text pre" => "Код (многострочный)",
+	"prettyprint" => array(
+        'tag'   =>  'pre',
+        'title' =>  'Код (prettyprint)',
+        'html'  =>  '<pre class="prettyprint">Код (prettyprint)</pre>',
+    ),
 );
 ?>
