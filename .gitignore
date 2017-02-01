@@ -16,3 +16,5 @@ urlrewrite.php
 web.config
 composer.phar
 /local/php_interface/lib/
+*composer*.*
+.htaccess
