@@ -77,7 +77,7 @@ $this->createFrame()->begin();
         "AREA_FILE_SHOW" => "file",
         "AREA_FILE_SUFFIX" => "inc",
         "EDIT_TEMPLATE" => "",
-        "PATH" => "/vk.php"
+        "PATH" => "/include/vk.php"
     )
 );?>
 

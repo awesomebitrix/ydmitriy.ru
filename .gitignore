@@ -4,7 +4,7 @@ upload/
 *.txt
 /test/
 counter.php
-vk.php
+/include/vk.php
 .idea/
 node_modules/
 .vagrant/
