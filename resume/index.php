@@ -4,12 +4,18 @@ $APPLICATION->SetPageProperty("description", "Языков Дмитрий рез
 $APPLICATION->SetPageProperty("keywords", "bitrix, api, php, создание сайтов, программист, набережные челны, портфолио, jquery, git, javascript, ajax, bx, статьи");
 $APPLICATION->SetPageProperty("title", "Языков Дмитрий - Резюме");
 $APPLICATION->SetTitle("Языков Дмитрий - Обо мне");
-?><h1>Обо мне</h1>
+?>
 
+<h1>Обо мне</h1>
 
 <div id="text">
-    <img width="409" alt="Языков Дмитрий" src="/upload/medialibrary/365/365dbafa07dd93e2d2479b67242a2f94.jpg" height="614" title="Языков Дмитрий" class="img-left">
-    <div>Меня зовут Языков Дмитрий, мне 25 лет и я web-developer.</div>
+    <img width="409" alt="Языков Дмитрий" src="https://ydmitry.ru/upload/medialibrary/4c5/4c5998c302e49eeb176009b0de070108.jpg" height="614" title="Языков Дмитрий" class="img-left">
+    <?
+        $birthday = new DateTime('13.02.1991');
+        $now = new DateTime();
+        $diff = date_diff($birthday, $now);
+    ?>
+    <div>Меня зовут Языков Дмитрий, мне <?=$diff->format('%Y')?> лет и я web-developer.</div>
 
 	<h2>Чем я могу быть полезен:</h2>
 	<div>
@@ -31,7 +37,7 @@ $APPLICATION->SetTitle("Языков Дмитрий - Обо мне");
         Но опыт и упорство остались
     </div>
 	<div>
-		Моё образование связано дизайном, и я слежу за трендами в области
+		Моё образование связано c дизайном, и я слежу за трендами в области
 	</div>
 	<div>
 		У меня также есть опыт выступлений на конференциях с техническими (и не очень) докладами
@@ -57,13 +63,25 @@ $APPLICATION->SetTitle("Языков Дмитрий - Обо мне");
 	<div>
 		 Я очень посредственный верстальщик. Я знаю что такое Bootstrap и MDL, но вот хаки и тонкости кроссбраузерной верстки мне не открылись
 	</div>
+
+
 	<h2>Опыт работы:</h2>
-	<div>
-	    2010 - 2012: Фриланс, разработка сайтов. <br>
-		2012 - <?=date('Y')?>: <a href="http://gkk.ru/sites/">ООО "Фирма Лист"</a>, веб-программист.
-	</div>
+
+    <?$APPLICATION->IncludeComponent(
+        "bitrix:main.include",
+        "",
+        Array(
+            "AREA_FILE_SHOW" => "file",
+            "AREA_FILE_SUFFIX" => "inc",
+            "EDIT_TEMPLATE" => "",
+            "PATH" => "/include/experience.php"
+        )
+    );?>
+
+
 	<h2>Подтверждение навыков:</h2>
-	 <?$APPLICATION->IncludeComponent(
+
+<?$APPLICATION->IncludeComponent(
 	"bitrix:news.list",
 	"resume",
 	Array(

@@ -126,6 +126,11 @@ h1, h2, h3, h4 {
     margin: 2rem 0 0 0;
 }
 
+table.badges {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 /*Под большие мониторы*/
 @media screen and (min-width: 1600px)
 {
