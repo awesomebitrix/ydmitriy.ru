@@ -12,7 +12,8 @@ $APPLICATION->SetTitle("Контакты");
     Связаться со мной: <br><br>
     <b>Телефон: </b><span itemprop="telephone">+7 (951) 069-52-39 </span> <i>[call, telegram]</i><br><br>
     <b>Email: </b><span itemprop="email"><a href="mailto:work@ydmitriy.ru">work@ydmitriy.ru</a></span><br>
-    <b>Skype: </b><a href='skype:d1mas91'>d1mas91</a><br><br>
+    <b>Skype: </b><a href='skype:d1mas91'>d1mas91</a><br>
+    <b>Bitrix24: </b><a href="https://www.bitrix24.net/d1mas91" target="_blank">bitrix24.net/d1mas91</a> <br/><br/>
 
     Или если вам просто интересно кто я такой и чем увлекаюсь:<br><br>
     <b>GitHub: </b><a href="http://github.com/d1mas91" target="_blank">github.com/d1mas91</a><br>
