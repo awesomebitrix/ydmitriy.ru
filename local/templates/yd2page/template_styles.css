@@ -129,6 +129,11 @@ h1, h2, h3, h4 {
 table.badges {
     margin-left: 2%;
     margin-right: 2%;
+    margin-top: 10px;
+}
+
+table.badges tr {
+    margin-top: 5px;
 }
 
 /*Под большие мониторы*/

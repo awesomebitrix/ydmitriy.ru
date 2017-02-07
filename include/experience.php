@@ -11,6 +11,17 @@
                     <a href="https://ydmitry.ru/portfolio/ooo-firma-list/">Сайт ООО "Фирма Лист"</a>
                 </td>
             </tr>
+            <tr>
+                <td>
+                    <img class="img_block" src="https://ydmitry.ru/upload/medialibrary/1cf/1cf56f372b6ff0b308b859d5cdbf37dc.png" alt="Мониторинг качества внедрений"/>
+                </td>
+                <td>
+                    Получили благодаря ряду кейсов, среди которых:
+                    <a href="https://ydmitry.ru/portfolio/ford-sollers-svo/">ForsSollers SVO</a>,
+                    <a href="https://ydmitry.ru/portfolio/fordsollers-cvo/">FordSollers CVO</a>,
+                    <a href="https://ydmitry.ru/portfolio/tatneft/">Татнефть УРПС</a>.
+                </td>
+            </tr>
         </table>
     </div>
     <div>
@@ -19,12 +30,20 @@
             <tr>
                 <td>
                     <img class="img_block" src="https://ydmitry.ru/upload/medialibrary/abd/abd8f80d80fdb675018d032314792fc7.png" alt="Крупные внедрения"/>
-                    <img class="img_block" src="https://ydmitry.ru/upload/medialibrary/e7c/e7c3948311dfeba4d149d397b75fca98.png" alt="Битрикс 24"/>
-                    <img class="img_block" src="https://ydmitry.ru/upload/medialibrary/1d4/1d4e47fe0291427a88857ba34e514238.png" alt="Коробочная версия"/>
+                    <img class="img_block" src="https://ydmitry.ru/upload/medialibrary/c64/c64f074ef52a8ae32c6dab087bafa711.png" alt="Коробочная версия"/>
                 </td>
                 <td>
                     Получили благодаря успешно выполненному кейсу
                     <a href="https://ydmitry.ru/portfolio/fordsollers/">FordSollers IFS</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img class="img_block" src="https://ydmitry.ru/upload/medialibrary/e7c/e7c3948311dfeba4d149d397b75fca98.png" alt="Битрикс 24"/>
+                </td>
+                <td>
+                    Получили брагодаря внедрениям Облачного Битрикс24
                 </td>
             </tr>
 
