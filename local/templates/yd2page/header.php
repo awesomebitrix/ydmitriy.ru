@@ -18,7 +18,7 @@
     <!-- CSS -->
     <?$APPLICATION->ShowCSS();?>
     <!-- !CSS -->
-    <link rel="icon" href="<?=SITE_TEMPLATE_PATH?>/../.default/img/favicon1.ico" type="image/vnd.microsoft.icon"/>
+    <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon"/>
 
     <?
         //  Фикс множества багов "Uncaught ReferenceError: BXHotKeys is not defined" для админа
