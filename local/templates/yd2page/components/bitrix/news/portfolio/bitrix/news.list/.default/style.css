@@ -23,8 +23,8 @@
 }
 
 .portfolio_text .frame {
-    margin: 2rem;
-    background: #f5fff9;
+    background: #fff;
+    border: 1px solid #ccc;
     opacity: 1;
     padding: 2rem;
 }
