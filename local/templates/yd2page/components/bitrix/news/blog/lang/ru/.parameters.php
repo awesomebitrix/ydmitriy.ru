@@ -11,6 +11,6 @@ $MESS["T_IBLOCK_DESC_NEWS_SHARE_SHORTEN_URL_KEY"] = "Ключ для для bit.
 $MESS["RECOMENDATION_PARAMS"] = "Параметры инфоблока, участвующие в поиске рекомендаций";
 $MESS["RECOMENDATION_FIELDS"] = "Поля инфоборка, выводимые в рекомендациях";
 $MESS["RECOMENDATION_COUNT"] = "Количество выводимых рекомендаций";
-$MESS[""] = "";
+$MESS["RECOMENDATION_CURRENT_ID"] = "ID текущего элемента для исключения";
 $MESS[""] = "";
 ?>

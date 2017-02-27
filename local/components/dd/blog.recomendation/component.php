@@ -12,6 +12,9 @@ if (!CModule::IncludeModule('iblock')) {
 if ($arParams['ELEMENTS_COUNT'] < 1)
     $arParams['ELEMENTS_COUNT'] = 3;
 
+if (empty($arParams['CURRENT_ID']))
+    $arParams['CURRENT_ID'] = 0;
+
 //      Собираем поиск
 //  Поля из настроек
 $arSubFilter = array(
@@ -45,6 +48,7 @@ foreach ($arParams['SEARCH'] as $search) {
 $arFilter = array(
     'IBLOCK_ID' =>  $arParams['IBLOCK_ID'],
     'ACTIVE'    =>  'Y',
+    '!ID'       =>  $arParams['CURRENT_ID'],
     $arSubFilter,
 );
 

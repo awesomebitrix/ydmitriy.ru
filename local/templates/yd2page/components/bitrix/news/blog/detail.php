@@ -74,6 +74,7 @@ $this->createFrame()->begin();
         "COMPOSITE_FRAME_TYPE" => "AUTO",
         "FIELDS" => $arParams['RECOMENDATION_FIELDS'],
         "ELEMENTS_COUNT" => $arParams['RECOMENDATION_COUNT'],
+        "CURRENT_ID" => $GLOBALS['BLOG_ID'],
     ),
     false
 );?>

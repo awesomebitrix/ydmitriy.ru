@@ -85,6 +85,10 @@ $arComponentParameters = array(
             'PARENT'    =>  'BASE',
             'NAME'      =>  'Количество элементов',
             'TYPE'      =>  'STRING',
-        )
+        ),
+        'CURRENT_ID'    =>  array(
+            'PARENT'    =>  'BASE',
+            'NAME'      =>  'ID текущей статьи для выборки'
+        ),
     ),
 );

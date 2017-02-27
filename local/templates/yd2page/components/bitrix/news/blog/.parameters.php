@@ -115,4 +115,10 @@ $arTemplateParameters["RECOMENDATION_COUNT"] = array(
     "DEFAULT" => "",
 );
 
+$arTemplateParameters["RECOMENDATION_CURRENT_ID"] = array(
+    "NAME" => GetMessage("RECOMENDATION_CURRENT_ID"),
+    "TYPE" => "STRING",
+    "DEFAULT" => "",
+);
+
 ?>
