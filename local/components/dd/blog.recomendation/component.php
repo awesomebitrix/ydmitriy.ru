@@ -8,6 +8,10 @@ if (!CModule::IncludeModule('iblock')) {
     return false;
 }
 
+//  Преобразование параметров
+if ($arParams['ELEMENTS_COUNT'] < 1)
+    $arParams['ELEMENTS_COUNT'] = 3;
+
 //      Собираем поиск
 //  Поля из настроек
 $arSubFilter = array(
@@ -69,7 +73,7 @@ $dbElements = $CIBElement->GetList(
     $arFilter,
     false,
     array(
-        'nTopCount' =>  5,
+        'nTopCount' =>  $arParams['ELEMENTS_COUNT'],
     ),
     $arSelect
 );

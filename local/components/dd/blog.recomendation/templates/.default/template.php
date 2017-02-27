@@ -3,18 +3,22 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 /** @var array $arParams */
 /** @var array $arResult */
 //Helpers::dump($arResult);
+$this->setFrameMode(true);
 ?>
 
-<?foreach ($arResult['ITEMS'] as $item):?>
+<div class="recomendation-block">
 
-    <div class="recomendation">
+    <?foreach ($arResult['ITEMS'] as $item):?>
 
-        <a href="<?=$item['DETAIL_PAGE_URL']?>">
-            <?=CFile::ShowImage($item['PREVIEW_PICTURE'], 300,200)?>
-            <?=$item['NAME']?>
-        </a>
+        <div class="recomendation">
 
-    </div>
+            <a href="<?=$item['DETAIL_PAGE_URL']?>">
+                <?=CFile::ShowImage($item['PREVIEW_PICTURE'], 300,200)?>
+                <?=$item['NAME']?>
+            </a>
 
-<?endforeach?>
+        </div>
 
+    <?endforeach?>
+
+</div>

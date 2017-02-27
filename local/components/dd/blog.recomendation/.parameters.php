@@ -80,6 +80,11 @@ $arComponentParameters = array(
                 'DATE_CREATE'       =>  'Дата создания',
             ),
             'MULTIPLE'  =>  'Y',
+        ),
+        'ELEMENTS_COUNT'    =>  array(
+            'PARENT'    =>  'BASE',
+            'NAME'      =>  'Количество элементов',
+            'TYPE'      =>  'STRING',
         )
     ),
 );
