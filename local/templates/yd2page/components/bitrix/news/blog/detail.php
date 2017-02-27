@@ -62,6 +62,30 @@ $this->createFrame()->begin();
 	$component
 );?>
 
+<?$APPLICATION->IncludeComponent(
+    "dd:blog.recomendation",
+    ".default",
+    array(
+        "COMPONENT_TEMPLATE" => ".default",
+        "IBLOCK_ID" => $arParams['IBLOCK_ID'],
+        "PARAMS" => $arParams['RECOMENDATION_PARAMS'],
+        "SEARCH" => array(
+            0 => "bitrix",
+            1 => "php",
+            2 => "twig",
+            3 => "soft",
+            4 => "гаджет",
+            5 => "google",
+            6 => "UX",
+        ),
+        "COMPOSITE_FRAME_MODE" => "A",
+        "COMPOSITE_FRAME_TYPE" => "AUTO",
+        "FIELDS" => $arParams['RECOMENDATION_FIELDS'],
+        "ELEMENTS_COUNT" => $arParams['RECOMENDATION_COUNT'],
+    ),
+    false
+);?>
+
 <hr/>
 
 <p>

@@ -75,4 +75,44 @@ if ($arCurrentValues["USE_SHARE"] == "Y")
 	);
 }
 
+CModule::IncludeModule('iblock');
+
+$properties['NAME'] = 'Наименование';
+$dbProperties = CIBlockProperty::GetList(
+    array(
+        'SORT'  =>  'ASC',
+        'NAME'  =>  'ASC',
+    ),
+    array(
+        'IBLOCK_ID' =>  $arCurrentValues['IBLOCK_ID'],
+        'ACTIVE'    =>  'Y',
+
+    )
+);
+while ($arProperties = $dbProperties->Fetch()) {
+    $properties['PROPERTY_'.$arProperties['CODE']] = $arProperties['NAME'];
+}
+
+$arTemplateParameters["RECOMENDATION_PARAMS"] = array(
+    "NAME" => GetMessage("RECOMENDATION_PARAMS"),
+    "TYPE" => "STRING",
+    "DEFAULT" => "",
+    "MULTIPLE" => "Y",
+    "ADDITIONAL_VALUES" => "Y",
+);
+
+$arTemplateParameters["RECOMENDATION_FIELDS"] = array(
+    "NAME" => GetMessage("RECOMENDATION_FIELDS"),
+    "TYPE" => "LIST",
+    "VALUES" => $properties,
+    "MULTIPLE" => "Y",
+    "ADDITIONAL_VALUES" => "Y",
+);
+
+$arTemplateParameters["RECOMENDATION_COUNT"] = array(
+    "NAME" => GetMessage("RECOMENDATION_COUNT"),
+    "TYPE" => "STRING",
+    "DEFAULT" => "",
+);
+
 ?>
