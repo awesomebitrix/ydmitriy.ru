@@ -34,8 +34,9 @@
     $GLOBALS['BLOG_TAGS'] = $tags;  //  Типичный Битрикс, никак по-другому не передать параметры
     $GLOBALS['BLOG_ID'] = $arResult['ID'];  //  Типичный Битрикс2, передаем ID текущего элеента
 
-    foreach ($tags as $tag) {
-        echo "<a href='/search/?q={$tag}'>{$tag}</a>";
-    }
-    ?>
+    foreach ($tags as $tag):?>
+        <noindex>
+            <a href='/search/?q=<?=$tag?>' rel="nofollow"><?=$tag?></a>
+        </noindex>
+    <?endforeach?>
 </div>
