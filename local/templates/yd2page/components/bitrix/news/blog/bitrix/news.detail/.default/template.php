@@ -31,6 +31,9 @@
     <?
     $tags = explode(', ', $arResult["PROPERTIES"]["BLOG_TAGS"]["VALUE"]);
 
+    $GLOBALS['BLOG_TAGS'] = $tags;  //  Типичный Битрикс, никак по-другому не передать параметры
+    $GLOBALS['BLOG_ID'] = $arResult['ID'];  //  Типичный Битрикс2, передаем ID текущего элеента
+
     foreach ($tags as $tag) {
         echo "<a href='/search/?q={$tag}'>{$tag}</a>";
     }

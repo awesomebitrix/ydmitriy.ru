@@ -62,6 +62,23 @@ $this->createFrame()->begin();
 	$component
 );?>
 
+<?$APPLICATION->IncludeComponent(
+    "dd:blog.recomendation",
+    ".default",
+    array(
+        "COMPONENT_TEMPLATE" => ".default",
+        "IBLOCK_ID" => $arParams['IBLOCK_ID'],
+        "PARAMS" => $arParams['RECOMENDATION_PARAMS'],
+        "SEARCH" => $GLOBALS['BLOG_TAGS'],
+        "COMPOSITE_FRAME_MODE" => "A",
+        "COMPOSITE_FRAME_TYPE" => "AUTO",
+        "FIELDS" => $arParams['RECOMENDATION_FIELDS'],
+        "ELEMENTS_COUNT" => $arParams['RECOMENDATION_COUNT'],
+        "CURRENT_ID" => $GLOBALS['BLOG_ID'],
+    ),
+    false
+);?>
+
 <hr/>
 
 <p>
