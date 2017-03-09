@@ -2,8 +2,7 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("title", "Языков Дмитрий - Блог");
 $APPLICATION->SetTitle("Языков Дмитрий - Блог");
-?>
-<?$APPLICATION->IncludeComponent(
+?><?$APPLICATION->IncludeComponent(
 	"bitrix:news", 
 	"blog", 
 	array(
@@ -125,6 +124,4 @@ $APPLICATION->SetTitle("Языков Дмитрий - Блог");
 		)
 	),
 	false
-);?>
-
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
