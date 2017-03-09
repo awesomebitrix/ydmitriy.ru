@@ -1,5 +1,4 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
-
 <?$APPLICATION->IncludeComponent(
 	"dd:blog.review", 
 	".default", 
@@ -14,6 +13,4 @@
 		"COMPOSITE_FRAME_TYPE" => "AUTO"
 	),
 	false
-);?>
-
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
