@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * Вспомагательные функции
  * Class Helpers
@@ -61,4 +60,4 @@ class Helpers {
 
         return $date->format('j') . $monthString . $date->format('Y');
     }
-} 
+}
