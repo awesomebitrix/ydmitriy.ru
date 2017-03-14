@@ -1,18 +1,5 @@
-div.news-detail
-{
-	word-wrap: break-word;
-}
-div.news-detail img.detail_picture
-{
-	float:left;
-	margin:0 8px 6px 1px;
-}
-.news-date-time
-{
-	color:#486DAA;
-}
-
-p.post_date_2 {
+/*  Дата поста  */
+.post_date_2 {
     font-family: Georgia,Times,"Times New Roman",serif;
     font-weight: 200;
     font-style: italic;
@@ -20,4 +7,23 @@ p.post_date_2 {
     color: #515151;
     font-size: 1.25em;
     margin: 0 0 1rem 0;
+}
+
+/*   Оформление тегов под постом   */
+div.tag a {
+    color: #CF8C92;
+    background: #F9F9F9;
+    font-size: 0.8rem;
+    padding: 0.1em 0.2rem 0.1rem 0.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+div.tag a:before {
+    content: "#";
+}
+
+/*  Блок количества просмотров  */
+.views {
+    float: right;
+    font-family:u1f400;
 }
