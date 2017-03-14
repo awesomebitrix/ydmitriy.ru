@@ -1,5 +1,5 @@
 /*  Дата поста  */
-p.post_date_2 {
+.post_date_2 {
     font-family: Georgia,Times,"Times New Roman",serif;
     font-weight: 200;
     font-style: italic;
@@ -20,4 +20,10 @@ div.tag a {
 
 div.tag a:before {
     content: "#";
+}
+
+/*  Блок количества просмотров  */
+.views {
+    float: right;
+    font-family:u1f400;
 }
