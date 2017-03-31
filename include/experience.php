@@ -1,6 +1,10 @@
 <div>
     <div>
-        2016 - <?=date('Y')?>: <a href="https://gkk.ru/sites/">ООО "Фирма Лист"</a>, заместитель руководителя отдела.
+        2016 - <?=date('Y')?>:
+        <a href="https://gkk.ru/sites/">ООО "Фирма Лист"</a>
+        (<a href="https://www.1c-bitrix.ru/partners/44830.php" target="_blank">БУС</a>,
+        <a href="https://www.bitrix24.ru/partners/?ID=44830" target="_blank">Б24</a>),
+        заместитель руководителя отдела.
         <table class="badges">
             <tr>
                 <td>
