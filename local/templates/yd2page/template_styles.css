@@ -153,6 +153,10 @@ table.badges tr {
     }
 }
 
+.clear {
+    clear: both;
+}
+
 /*Под средние мониторы*/
 @media screen and (min-width: 600px)
 {
