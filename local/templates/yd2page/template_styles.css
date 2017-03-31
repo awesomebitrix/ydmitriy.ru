@@ -19,6 +19,8 @@ a:hover {
 .img_block {
     text-align: center;
     margin: 0;
+    max-width: 130px;
+    height: auto;
 }
 
 div.input {

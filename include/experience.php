@@ -4,6 +4,17 @@
         <table class="badges">
             <tr>
                 <td>
+                    <img class="img_block" src="https://ydmitry.ru/upload/medialibrary/7f4/7f4f202f1af1b4135234ec0891651d92.jpg" alt="Битрикс24: Коробочная версия"/>
+                    <img class="img_block" src="https://ydmitry.ru/upload/medialibrary/84d/84d7de8be5697502daeb1a8abd6f76ed.jpg" alt="Битрикс24: Крупные внедрения"/>
+                    <img class="img_block" src="https://ydmitry.ru/upload/medialibrary/aa0/aa079b5ed2e7dc4f61b3bb96387fd1ca.jpg" alt="Битрикс24: Интеграция с 1С"/>
+                </td>
+                <td>
+                    Получили благодаря успешно выполненному кейсу
+                    <a href="https://ydmitry.ru/portfolio/fordsollers/">FordSollers IFS</a> и внедрению корпоративного портала ООО "Фирма Лист"
+                </td>
+            </tr>
+            <tr>
+                <td>
                     <img class="img_block" src="https://ydmitry.ru/upload/medialibrary/0fe/0fe02bbde0ee6f290987ca7ae4069c6b.png" alt="Композитный сайт"/>
                 </td>
                 <td>
