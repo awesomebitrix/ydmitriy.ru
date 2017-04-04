@@ -1,4 +1,7 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+
+use Bitrix\Main\Localization\Loc;   //  Работа с файлами локализации
+?>
 <!doctype html>
 <html lang="ru">
 <head>
@@ -26,7 +29,7 @@
             $APPLICATION->ShowHeadStrings();
     ?>
 
-    <?IncludeTemplateLangFile(__FILE__);?>
+    <?Loc::loadMessages(__FILE__);?>
     </head>
 <body>
 <?$APPLICATION->ShowPanel();?>
