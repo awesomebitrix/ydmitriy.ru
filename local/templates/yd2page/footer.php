@@ -1,9 +1,18 @@
 </div>
-<?$APPLICATION->AddHeadScript("/bower_components/jquery/dist/jquery.min.js")?>
-<?$APPLICATION->AddHeadScript("/bower_components/jquery.lazyload/jquery.lazyload.js")?>
-<?$APPLICATION->AddHeadScript("https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert")?>
-<?$APPLICATION->AddHeadScript("/js/lazyload.js")?>
-<?$APPLICATION->AddHeadScript("/js/min/all.min.js")?>
+<?
+    //  Подключение даполнительных js
+    use Bitrix\Main\Page\Asset;
+
+    $instance = Asset::getInstance();
+
+    $instance->addJs('/bower_components/jquery/dist/jquery.min.js');
+    $instance->addJs('/bower_components/jquery.lazyload/jquery.lazyload.js');
+    $instance->addJs('https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert');
+    $instance->addJs('/js/lazyload.js');
+    $instance->addJs('/js/min/all.min.js');
+
+?>
+
 <?$APPLICATION->IncludeComponent(
     "bitrix:main.include",
     "",
