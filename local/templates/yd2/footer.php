@@ -5,10 +5,8 @@
 //  Подключение даполнительных js
     use Bitrix\Main\Page\Asset;
 
-    $instance = Asset::getInstance();
-
-    $instance->addJs('/bower_components/jquery/dist/jquery.min.js');
-    $instance->addJs('/js/min/all.min.js');
+    Asset::getInstance()->addJs('/bower_components/jquery/dist/jquery.min.js');
+    Asset::getInstance()->addJs('/js/min/all.min.js');
 ?>
 
 <?$APPLICATION->IncludeComponent(

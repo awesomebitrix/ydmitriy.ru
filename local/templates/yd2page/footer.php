@@ -3,13 +3,11 @@
     //  Подключение даполнительных js
     use Bitrix\Main\Page\Asset;
 
-    $instance = Asset::getInstance();
-
-    $instance->addJs('/bower_components/jquery/dist/jquery.min.js');
-    $instance->addJs('/bower_components/jquery.lazyload/jquery.lazyload.js');
-    $instance->addJs('https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert');
-    $instance->addJs('/js/lazyload.js');
-    $instance->addJs('/js/min/all.min.js');
+    Asset::getInstance()->addJs('/bower_components/jquery/dist/jquery.min.js');
+    Asset::getInstance()->addJs('/bower_components/jquery.lazyload/jquery.lazyload.js');
+    Asset::getInstance()->addJs('https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert');
+    Asset::getInstance()->addJs('/js/lazyload.js');
+    Asset::getInstance()->addJs('/js/min/all.min.js');
 
 ?>
 
@@ -30,7 +28,7 @@
         $APPLICATION->ShowHeadStrings();
     }
 ?>
-<?$APPLICATION->ShowHeadScripts();?>
-<!-- !Scripts -->
+<?//$APPLICATION->ShowHeadScripts();?>
+ !Scripts
 </body>
 </html>

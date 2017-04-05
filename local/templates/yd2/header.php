@@ -1,6 +1,8 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 
 use Bitrix\Main\Localization\Loc;   //  Работа с файлами локализации
+
+Loc::loadMessages(__FILE__);
 ?>
 <!doctype html>
 <html lang="ru">
@@ -29,8 +31,6 @@ use Bitrix\Main\Localization\Loc;   //  Работа с файлами лока�
         if ($USER->IsAdmin())
             $APPLICATION->ShowHeadStrings();
     ?>
-
-    <?Loc::loadMessages(__FILE__);?>
     </head>
 <body>
 <?$APPLICATION->ShowPanel();?>
