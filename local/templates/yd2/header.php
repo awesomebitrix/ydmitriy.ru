@@ -91,17 +91,16 @@ use Bitrix\Main\Localization\Loc;   //  Работа с файлами лока�
     </div>
     <div id="workarea">
         <div id="header">
-            <h1 class="name">
-                <a href="/">
-                    Языков Дмитрий<br>
-                </a>
-                <span class="profession">
-                    Web-developer
-                </span>
-                <span class="button">
-                    &equiv;
-                </span>
-            </h1>
+            <?$APPLICATION->IncludeComponent(
+                "bitrix:main.include",
+                "",
+                Array(
+                    "AREA_FILE_SHOW" => "file",
+                    "AREA_FILE_SUFFIX" => "inc",
+                    "EDIT_TEMPLATE" => "",
+                    "PATH" => "/include/title_main.php"
+                )
+            );?>
             <div class="arrow">
                 <noindex>
                     <a href="#content">
