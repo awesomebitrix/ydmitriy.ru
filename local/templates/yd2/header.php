@@ -5,7 +5,7 @@ use Bitrix\Main\Localization\Loc;   //  Работа с файлами лока�
 Loc::loadMessages(__FILE__);
 ?>
 <!doctype html>
-<html lang="ru">
+<html lang="<?=LANGUAGE_ID?>">
 <head>
     <title><?$APPLICATION->ShowTitle()?></title>
     <!-- Meta -->
