@@ -1,6 +1,11 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+
+use Bitrix\Main\Localization\Loc;   //  Работа с файлами локализации
+
+Loc::loadMessages(__FILE__);
+?>
 <!doctype html>
-<html lang="ru">
+<html lang="<?=LANGUAGE_ID?>">
 <head>
     <title><?$APPLICATION->ShowTitle()?></title>
     <!-- Meta -->
@@ -18,15 +23,13 @@
     <!-- CSS -->
     <?$APPLICATION->ShowCSS();?>
     <!-- !CSS -->
-    <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon"/>
+    <link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon"/>
 
     <?
         //  Фикс множества багов "Uncaught ReferenceError: BXHotKeys is not defined" для админа
         if ($USER->IsAdmin())
             $APPLICATION->ShowHeadStrings();
     ?>
-
-    <?IncludeTemplateLangFile(__FILE__);?>
     </head>
 <body>
 <?$APPLICATION->ShowPanel();?>
@@ -87,16 +90,15 @@
 </div>
 <div id="workarea">
     <div id="header">
-        <h3 class="name">
-            <a href="/">
-                Языков Дмитрий<br>
-            </a>
-                <span class="profession">
-                    Web-developer
-                </span>
-                <span class="button">
-                    &equiv;
-                </span>
-        </h3>
+        <?$APPLICATION->IncludeComponent(
+            "bitrix:main.include",
+            "",
+            Array(
+                "AREA_FILE_SHOW" => "file",
+                "AREA_FILE_SUFFIX" => "inc",
+                "EDIT_TEMPLATE" => "",
+                "PATH" => "/include/title_pages.php"
+            )
+        );?>
     </div>
     <div id="content">
