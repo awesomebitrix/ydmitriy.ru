@@ -28,7 +28,6 @@
         $APPLICATION->ShowHeadStrings();
     }
 ?>
-<?//$APPLICATION->ShowHeadScripts();?>
- !Scripts
+<?$APPLICATION->ShowHeadScripts();?>
 </body>
 </html>
