@@ -20,7 +20,7 @@
         <img
             class="detail_picture"
             border="0"
-            data-original="<?=$arResult["DETAIL_PICTURE"]["SRC"]?>"
+            src="<?=$arResult["DETAIL_PICTURE"]["SRC"]?>"
             width="<?=$arResult["DETAIL_PICTURE"]["WIDTH"]?>"
             height="<?=$arResult["DETAIL_PICTURE"]["HEIGHT"]?>"
             alt="<?=$arResult["DETAIL_PICTURE"]["ALT"]?>"

@@ -11,7 +11,6 @@
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
 //$this->setFrameMode(true);
-$this->createFrame()->begin();
 ?>
 <?$ElementID = $APPLICATION->IncludeComponent(
 	"bitrix:news.detail",
@@ -61,6 +60,8 @@ $this->createFrame()->begin();
 	),
 	$component
 );?>
+
+<?$frame = $this->createFrame()->begin()?>
 
 <?$APPLICATION->IncludeComponent(
     "dd:blog.recomendation",
@@ -113,3 +114,9 @@ $this->createFrame()->begin();
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </nofollow></noindex>
+
+<?$frame->beginStub();?>
+    <div>
+        Загрузка рекомендаций и комментариев...
+    </div>
+<?$frame->end()?>

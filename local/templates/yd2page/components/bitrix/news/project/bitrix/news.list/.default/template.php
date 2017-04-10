@@ -12,7 +12,7 @@ $this->setFrameMode(true);
         <img
             border="0"
             class="project-image"
-            data-original="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"
+            src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"
             width="<?=$arItem["PREVIEW_PICTURE"]["WIDTH"]?>"
             height="<?=$arItem["PREVIEW_PICTURE"]["HEIGHT"]?>"
             alt="<?=$arItem["PREVIEW_PICTURE"]["ALT"]?>"
