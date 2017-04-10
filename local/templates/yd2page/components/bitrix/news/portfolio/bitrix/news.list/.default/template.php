@@ -25,7 +25,7 @@ $this->setFrameMode(true);
                 <div class="portfolio_image">
                     <img
                         border="0"
-                        data-original="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"
+                        src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"
                         width="<?=$arItem["PREVIEW_PICTURE"]["WIDTH"]?>"
                         height="<?=$arItem["PREVIEW_PICTURE"]["HEIGHT"]?>"
                         alt="<?=$arItem["PREVIEW_PICTURE"]["ALT"]?>"

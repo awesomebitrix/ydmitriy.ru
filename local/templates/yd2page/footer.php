@@ -23,11 +23,7 @@
 );?>
 
 <!-- Scripts -->
-<?
-    if (!$USER->IsAdmin()) {
-        $APPLICATION->ShowHeadStrings();
-    }
-?>
+
 <?$APPLICATION->ShowHeadScripts();?>
 </body>
 </html>
