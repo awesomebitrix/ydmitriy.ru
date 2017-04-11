@@ -4,11 +4,8 @@
     use Bitrix\Main\Page\Asset;
 
     Asset::getInstance()->addJs('/bower_components/jquery/dist/jquery.min.js');
-    Asset::getInstance()->addJs('/bower_components/jquery.lazyload/jquery.lazyload.js');
     Asset::getInstance()->addJs('https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert');
-    Asset::getInstance()->addJs('/js/lazyload.js');
     Asset::getInstance()->addJs('/js/min/all.min.js');
-
 ?>
 
 <?$APPLICATION->IncludeComponent(
@@ -23,7 +20,12 @@
 );?>
 
 <!-- Scripts -->
-
+<?
+//  Фикс множества багов "Uncaught ReferenceError: BXHotKeys is not defined" для админа
+if (!$USER->IsAdmin())
+    $APPLICATION->ShowHeadStrings();
+?>
 <?$APPLICATION->ShowHeadScripts();?>
+<!-- !Scripts -->
 </body>
 </html>
