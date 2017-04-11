@@ -23,7 +23,12 @@
 );?>
 
 <!-- Scripts -->
-
+<?
+//  Фикс множества багов "Uncaught ReferenceError: BXHotKeys is not defined" для админа
+if (!$USER->IsAdmin())
+    $APPLICATION->ShowHeadStrings();
+?>
 <?$APPLICATION->ShowHeadScripts();?>
+<!-- !Scripts -->
 </body>
 </html>
