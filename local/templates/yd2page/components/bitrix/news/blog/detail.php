@@ -10,7 +10,6 @@
 /** @var string $templateFolder */
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
-//$this->setFrameMode(true);
 ?>
 <?$ElementID = $APPLICATION->IncludeComponent(
 	"bitrix:news.detail",
@@ -77,7 +76,7 @@
         "ELEMENTS_COUNT" => $arParams['RECOMENDATION_COUNT'],
         "CURRENT_ID" => $GLOBALS['BLOG_ID'],
     ),
-    false
+    $component
 );?>
 
 <hr/>
@@ -99,24 +98,13 @@
     )
 );?>
 
-<noindex><nofollow>
-        <div id="disqus_thread"></div>
-        <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES * * */
-            var disqus_shortname = 'ydmitriy';
-
-            /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-</nofollow></noindex>
-
-<?$frame->beginStub();?>
-    <div>
-        Загрузка рекомендаций и комментариев...
-    </div>
-<?$frame->end()?>
+<?$APPLICATION->IncludeComponent(
+    "bitrix:main.include",
+    "",
+    Array(
+        "AREA_FILE_SHOW" => "file",
+        "AREA_FILE_SUFFIX" => "inc",
+        "EDIT_TEMPLATE" => "",
+        "PATH" => "/include/disqus.php"
+    )
+);?>
