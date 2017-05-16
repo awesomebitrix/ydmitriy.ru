@@ -40,10 +40,13 @@ $APPLICATION->SetTitle("Языков Дмитрий - Обо мне");
 		Моё образование связано c дизайном, и я слежу за трендами в области
 	</div>
 	<div>
-		У меня также есть опыт выступлений на конференциях с техническими (и не очень) докладами
-        (<a href="http://gkk.ru/sites/news/index.php?ELEMENT_ID=4445" target="_blank">раз,</a>
-        <a href="http://gkk.ru/sites/news/index.php?ELEMENT_ID=3179" target="_blank">два,</a>
-        <a href="http://gkk.ru/sites/news/index.php?ELEMENT_ID=1062" target="_blank">три</a>)
+		У меня также есть опыт выступлений на конференциях с техническими (и не очень) докладами. <br>
+        На сайте IT-парка:
+        <a href="http://itpark-chelny.ru/node/743" target="_blank">4 декабря 2014.</a>
+        На сайте gkk.ru:
+        <a href="http://gkk.ru/sites/news/index.php?ELEMENT_ID=4445" target="_blank">18 ноября 2015,</a>
+        <a href="http://gkk.ru/sites/news/index.php?ELEMENT_ID=3179" target="_blank">4 июня 2015,</a>
+        <a href="http://gkk.ru/sites/news/index.php?ELEMENT_ID=1062" target="_blank">6 июня 2016.</a>
 	</div>
 	<div>
 		Использую: <code>Php, MySQL, Bitrix API, Unix, Git, JavaScript, jQuery, Bower, Grunt, Joomla, WordPress,
