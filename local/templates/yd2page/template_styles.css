@@ -91,6 +91,11 @@ div.rss a {
     background: none !important;
 }
 
+.facebook:hover {
+    color: #3b5998 !important;
+    background: none !important;
+}
+
 div.rss a:hover {
     color: #ffa324;
     background: none;

@@ -23,7 +23,7 @@ $APPLICATION->SetTitle("Контакты");
     <b>Medium:</b> <a href="https://medium.com/@D1maS91" target="_blank">medium.com/@D1maS91</a><br/><br/>
     
     <b>ВКонтакте: </b><a href="http://vk.com/d1mas91" target="_blank">vk.com/d1mas91</a><br>
-    <b>LinkedIn: </b><a href="https://www.linkedin.com/in/дмитрий-языков-a170b057" target="_blank">linkedin.com/...</a><br>
+    <b>Facebook: </b><a href="https://www.facebook.com/d1mas91" target="_blank">facebook.com/d1mas91</a><br>
     <b>Instagram: </b><a href="http://instagram.com/d1mas91" target="_blank">instagram.com/d1mas91</a><br>
     <b>Twitter: </b><a href="https://twitter.com/D1maS91" target="_blank">twitter.com/d1mas91</a><br>
 </div>
